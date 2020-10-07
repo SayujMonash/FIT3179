@@ -1,0 +1,61 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Map of local gov area Victoria",
+  "width": 1000,
+  "height": 700,
+  "data": {
+    "url": "https://sayujmonash.github.io/FIT3179/LocalGov2.json",
+    "format": {
+      "property": "features"
+    }
+  },
+  "transform": [
+    {
+      "lookup": "properties.vic_lga__3",
+      "from": {
+        "data": {
+          "url": "https://sayujmonash.github.io/FIT3179/MapFinal.csv"
+        },
+        "key": "Local Government Area",
+        "fields": [
+          "Local Government Area",
+          "Crashes Per 1000 People"
+        ]
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator"
+  },
+  "mark": {
+    "type": "geoshape",
+    "stroke": "#757575",
+    "strokeWidth": 0.5,
+    "tooltip": true
+  },
+  "encoding": {
+    "color": {
+      "field": "Crashes Per 1000 People",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "Oranges"
+      },
+      "legend": {
+        "title": null
+      }
+    },
+    "tooltip": [
+      {
+        "field": "properties.vic_lga__3",
+        "type": "nominal",
+        "title": "Name"
+      },
+      {
+        "field": "Crashes Per 1000 People",
+        "type": "quantitative",
+        "title": "Crashes per 1000 people"
+      }
+    ]
+  },
+  "config": {}
+}
