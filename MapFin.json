@@ -16,9 +16,9 @@
         "data": {
           "url": "https://sayujmonash.github.io/FIT3179/MapFinal.csv"
         },
-        "key": "Local Government Area",
+        "key": "LGA_NAME_R",
         "fields": [
-          "Local Government Area",
+          "LGA_NAME_R",
           "Crashes Per 1000 People"
         ]
       }
