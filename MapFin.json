@@ -38,7 +38,9 @@
       "field": "Crashes Per 1000 People",
       "type": "quantitative",
       "scale": {
-        "scheme": "Oranges"
+        "scheme": "Oranges",
+        "type": "threshold",
+        "domain": [10,15,20,25,35]
       },
       "legend": {
         "title": null
