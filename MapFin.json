@@ -1,8 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "Map of local gov area Victoria",
-  "width": 1000,
-  "height": 700,
+  "width": 800,
+  "height": 500,
+  "title": "Victoria Motor Crashes per 1000 People",
   "data": {
     "url": "https://sayujmonash.github.io/FIT3179/LocalGov2.json",
     "format": {
@@ -38,7 +39,7 @@
       "field": "Crashes Per 1000 People",
       "type": "quantitative",
       "scale": {
-        "scheme": "Oranges",
+        "scheme": "oranges",
         "type": "threshold",
         "domain": [10,15,20,25,35]
       },
@@ -59,5 +60,11 @@
       }
     ]
   },
-  "config": {}
+  "config": {  
+    "style": {
+    "cell": {
+      "stroke": "transparent"
+    }
+  }
+  }
 }
