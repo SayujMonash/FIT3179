@@ -1892,7 +1892,7 @@ T20130019218,Other injury accident,90 km/hr,Country
 T20130019219,Other injury accident,110 km/hr,Country
 T20130019220,Other injury accident,Off road,Country
 T20130019221,Serious injury accident,60 km/hr,Country
-T20130019222,Serious injury accident,30km/hr,Metro
+T20130019222,Serious injury accident,30 km/hr,Metro
 T20130019223,Other injury accident,60 km/hr,Metro
 T20130019224,Other injury accident,70 km/hr,Metro
 T20130019226,Other injury accident,100 km/hr,Country
@@ -2100,7 +2100,7 @@ T20130019318,Other injury accident,70 km/hr,Metro
 T20130019319,Serious injury accident,50 km/hr,Metro
 T20130019321,Other injury accident,60 km/hr,Metro
 T20130019323,Other injury accident,40 km/hr,Metro
-T20130019326,Serious injury accident,30km/hr,Metro
+T20130019326,Serious injury accident,30 km/hr,Metro
 T20130019329,Other injury accident,60 km/hr,Country
 T20130019331,Serious injury accident,70 km/hr,Country
 T20130019336,Other injury accident,70 km/hr,Metro
@@ -2120,7 +2120,7 @@ T20130019766,Other injury accident,60 km/hr,Metro
 T20130019767,Serious injury accident,60 km/hr,Metro
 T20130020191,Serious injury accident,60 km/hr,Metro
 T20130020192,Serious injury accident,100 km/hr,Country
-T20130020195,Serious injury accident,30km/hr,Metro
+T20130020195,Serious injury accident,30 km/hr,Metro
 T20130020196,Serious injury accident,70 km/hr,Metro
 T20130020197,Other injury accident,60 km/hr,Country
 T20130020198,Other injury accident,50 km/hr,Country
@@ -3044,7 +3044,7 @@ T20130018596,Other injury accident,Not known,Country
 T20130018597,Other injury accident,60 km/hr,Country
 T20130018598,Other injury accident,Not known,Metro
 T20130018599,Serious injury accident,Not known,Metro
-T20130017310,Other injury accident,30km/hr,Metro
+T20130017310,Other injury accident,30 km/hr,Metro
 T20130017312,Other injury accident,100 km/hr,Metro
 T20130017313,Serious injury accident,60 km/hr,Metro
 T20130017321,Other injury accident,40 km/hr,Metro
@@ -3321,7 +3321,7 @@ T20130022418,Other injury accident,60 km/hr,Metro
 T20130022420,Other injury accident,80 km/hr,Metro
 T20130022423,Other injury accident,60 km/hr,Country
 T20130022425,Other injury accident,60 km/hr,Metro
-T20130022426,Serious injury accident,30km/hr,Metro
+T20130022426,Serious injury accident,30 km/hr,Metro
 T20130022427,Other injury accident,50 km/hr,Metro
 T20130022429,Other injury accident,100 km/hr,Country
 T20130022430,Other injury accident,100 km/hr,Metro
@@ -3942,7 +3942,7 @@ T20130022361,Serious injury accident,60 km/hr,Metro
 T20130022363,Serious injury accident,60 km/hr,Metro
 T20130022364,Other injury accident,60 km/hr,Country
 T20130022367,Serious injury accident,100 km/hr,Country
-T20130022368,Other injury accident,30km/hr,Metro
+T20130022368,Other injury accident,30 km/hr,Metro
 T20130022712,Other injury accident,80 km/hr,Metro
 T20130022713,Fatal accident,60 km/hr,Metro
 T20130022714,Other injury accident,60 km/hr,Metro
@@ -5301,7 +5301,7 @@ T20130026109,Serious injury accident,50 km/hr,Country
 T20130026485,Serious injury accident,60 km/hr,Metro
 T20130026486,Other injury accident,60 km/hr,Metro
 T20130026487,Fatal accident,110 km/hr,Country
-T20130026489,Serious injury accident,30km/hr,Country
+T20130026489,Serious injury accident,30 km/hr,Country
 T20130026490,Other injury accident,60 km/hr,Metro
 T20130026492,Serious injury accident,80 km/hr,Metro
 T20130026493,Serious injury accident,100 km/hr,Country
@@ -5864,7 +5864,7 @@ T20130025223,Other injury accident,40 km/hr,Metro
 T20130025226,Other injury accident,100 km/hr,Metro
 T20130025227,Other injury accident,50 km/hr,Metro
 T20130025228,Serious injury accident,50 km/hr,Metro
-T20130025229,Other injury accident,30km/hr,Metro
+T20130025229,Other injury accident,30 km/hr,Metro
 T20130025230,Serious injury accident,60 km/hr,Metro
 T20130025232,Other injury accident,80 km/hr,Metro
 T20130025234,Serious injury accident,100 km/hr,Country
@@ -6244,7 +6244,7 @@ T20130024252,Other injury accident,110 km/hr,Country
 T20130024262,Other injury accident,50 km/hr,Metro
 T20130024263,Other injury accident,110 km/hr,Country
 T20130024267,Serious injury accident,70 km/hr,Metro
-T20130024269,Serious injury accident,30km/hr,Metro
+T20130024269,Serious injury accident,30 km/hr,Metro
 T20130024270,Other injury accident,40 km/hr,Metro
 T20130024271,Other injury accident,100 km/hr,Country
 T20130024274,Serious injury accident,60 km/hr,Country
@@ -7306,7 +7306,7 @@ T20140000205,Serious injury accident,70 km/hr,Metro
 T20140000206,Serious injury accident,60 km/hr,Country
 T20140000207,Other injury accident,60 km/hr,Metro
 T20140000211,Other injury accident,60 km/hr,Metro
-T20140000213,Serious injury accident,30km/hr,Metro
+T20140000213,Serious injury accident,30 km/hr,Metro
 T20140000214,Other injury accident,70 km/hr,Country
 T20140000216,Other injury accident,100 km/hr,Country
 T20140000217,Other injury accident,80 km/hr,Metro
@@ -8840,7 +8840,7 @@ T20140005630,Other injury accident,60 km/hr,Country
 T20140006019,Other injury accident,80 km/hr,Metro
 T20140006021,Other injury accident,60 km/hr,Metro
 T20140006024,Other injury accident,80 km/hr,Metro
-T20140006026,Other injury accident,30km/hr,Metro
+T20140006026,Other injury accident,30 km/hr,Metro
 T20140006027,Serious injury accident,100 km/hr,Metro
 T20140006028,Other injury accident,60 km/hr,Country
 T20140006029,Other injury accident,100 km/hr,Country
@@ -9031,7 +9031,7 @@ T20140004144,Serious injury accident,60 km/hr,Metro
 T20140004145,Other injury accident,100 km/hr,Metro
 T20140004147,Other injury accident,50 km/hr,Metro
 T20140004151,Other injury accident,60 km/hr,Metro
-T20140004154,Serious injury accident,30km/hr,Metro
+T20140004154,Serious injury accident,30 km/hr,Metro
 T20140004539,Serious injury accident,60 km/hr,Metro
 T20140004541,Serious injury accident,60 km/hr,Metro
 T20140004544,Other injury accident,60 km/hr,Metro
@@ -9279,7 +9279,7 @@ T20140003877,Other injury accident,70 km/hr,Metro
 T20140003879,Serious injury accident,100 km/hr,Country
 T20140003882,Other injury accident,50 km/hr,Metro
 T20140003883,Serious injury accident,100 km/hr,Country
-T20140004267,Other injury accident,30km/hr,Metro
+T20140004267,Other injury accident,30 km/hr,Metro
 T20140004269,Serious injury accident,80 km/hr,Metro
 T20140004270,Other injury accident,60 km/hr,Metro
 T20140004271,Serious injury accident,60 km/hr,Metro
@@ -9702,7 +9702,7 @@ T20140004477,Other injury accident,70 km/hr,Metro
 T20140004478,Other injury accident,100 km/hr,Metro
 T20140004479,Serious injury accident,60 km/hr,Metro
 T20140004480,Other injury accident,60 km/hr,Metro
-T20140004482,Serious injury accident,30km/hr,Country
+T20140004482,Serious injury accident,30 km/hr,Country
 T20140004483,Other injury accident,50 km/hr,Metro
 T20140004485,Serious injury accident,80 km/hr,Country
 T20140004487,Serious injury accident,50 km/hr,Metro
@@ -10367,7 +10367,7 @@ T20140008701,Serious injury accident,Not known,Metro
 T20140008703,Other injury accident,60 km/hr,Metro
 T20140008704,Other injury accident,100 km/hr,Country
 T20140008705,Other injury accident,80 km/hr,Country
-T20140008711,Other injury accident,30km/hr,Metro
+T20140008711,Other injury accident,30 km/hr,Metro
 T20140008714,Serious injury accident,70 km/hr,Metro
 T20140008716,Other injury accident,60 km/hr,Metro
 T20140008717,Other injury accident,60 km/hr,Metro
@@ -10703,7 +10703,7 @@ T20140006923,Other injury accident,40 km/hr,Country
 T20140006924,Other injury accident,50 km/hr,Metro
 T20140006927,Other injury accident,50 km/hr,Country
 T20140006929,Serious injury accident,60 km/hr,Country
-T20140006930,Other injury accident,30km/hr,Metro
+T20140006930,Other injury accident,30 km/hr,Metro
 T20140006931,Other injury accident,60 km/hr,Country
 T20140006933,Other injury accident,50 km/hr,Metro
 T20140006935,Serious injury accident,80 km/hr,Metro
@@ -10782,7 +10782,7 @@ T20140007718,Other injury accident,60 km/hr,Metro
 T20140007720,Other injury accident,60 km/hr,Metro
 T20140007724,Serious injury accident,80 km/hr,Country
 T20140007730,Other injury accident,Not known,Metro
-T20140007732,Other injury accident,30km/hr,Metro
+T20140007732,Other injury accident,30 km/hr,Metro
 T20140007734,Serious injury accident,60 km/hr,Metro
 T20140007736,Other injury accident,60 km/hr,Metro
 T20140007738,Other injury accident,80 km/hr,Country
@@ -11346,7 +11346,7 @@ T20140007602,Other injury accident,50 km/hr,Metro
 T20140007604,Other injury accident,60 km/hr,Metro
 T20140007605,Serious injury accident,60 km/hr,Metro
 T20140007606,Other injury accident,60 km/hr,Country
-T20140007607,Other injury accident,30km/hr,Metro
+T20140007607,Other injury accident,30 km/hr,Metro
 T20140007610,Serious injury accident,70 km/hr,Metro
 T20140007611,Serious injury accident,100 km/hr,Country
 T20140007618,Fatal accident,70 km/hr,Metro
@@ -12930,7 +12930,7 @@ T20140010654,Other injury accident,60 km/hr,Metro
 T20140010657,Serious injury accident,60 km/hr,Metro
 T20140010658,Other injury accident,70 km/hr,Metro
 T20140010662,Other injury accident,100 km/hr,Metro
-T20140010667,Serious injury accident,30km/hr,Metro
+T20140010667,Serious injury accident,30 km/hr,Metro
 T20140010671,Serious injury accident,Off road,Country
 T20140010672,Other injury accident,60 km/hr,Metro
 T20140010673,Other injury accident,50 km/hr,Metro
@@ -13194,7 +13194,7 @@ T20140015056,Other injury accident,100 km/hr,Metro
 T20140015057,Serious injury accident,80 km/hr,Metro
 T20140015060,Other injury accident,100 km/hr,Country
 T20140015061,Serious injury accident,80 km/hr,Metro
-T20140015063,Other injury accident,30km/hr,Country
+T20140015063,Other injury accident,30 km/hr,Country
 T20140015064,Other injury accident,40 km/hr,Metro
 T20140015065,Other injury accident,80 km/hr,Metro
 T20140015459,Serious injury accident,70 km/hr,Metro
@@ -13289,7 +13289,7 @@ T20140014708,Other injury accident,70 km/hr,Metro
 T20140014709,Other injury accident,100 km/hr,Metro
 T20140014710,Other injury accident,60 km/hr,Metro
 T20140015103,Other injury accident,50 km/hr,Metro
-T20140015105,Other injury accident,30km/hr,Metro
+T20140015105,Other injury accident,30 km/hr,Metro
 T20140015106,Serious injury accident,80 km/hr,Metro
 T20140015108,Other injury accident,60 km/hr,Metro
 T20140015109,Serious injury accident,60 km/hr,Country
@@ -13435,7 +13435,7 @@ T20140014757,Serious injury accident,40 km/hr,Metro
 T20140014758,Other injury accident,60 km/hr,Metro
 T20140014759,Serious injury accident,80 km/hr,Country
 T20140014762,Serious injury accident,80 km/hr,Metro
-T20140014764,Serious injury accident,30km/hr,Metro
+T20140014764,Serious injury accident,30 km/hr,Metro
 T20140014766,Other injury accident,50 km/hr,Metro
 T20140014767,Other injury accident,60 km/hr,Country
 T20140014768,Other injury accident,60 km/hr,Metro
@@ -15260,7 +15260,7 @@ T20140017252,Other injury accident,60 km/hr,Metro
 T20140017255,Other injury accident,40 km/hr,Country
 T20140017258,Serious injury accident,60 km/hr,Metro
 T20140017261,Serious injury accident,60 km/hr,Metro
-T20140017262,Other injury accident,30km/hr,Metro
+T20140017262,Other injury accident,30 km/hr,Metro
 T20140017264,Serious injury accident,60 km/hr,Metro
 T20140017267,Other injury accident,50 km/hr,Metro
 T20140017268,Serious injury accident,60 km/hr,Metro
@@ -15746,7 +15746,7 @@ T20140016732,Other injury accident,70 km/hr,Metro
 T20140016734,Other injury accident,100 km/hr,Country
 T20140016735,Other injury accident,110 km/hr,Country
 T20140016737,Other injury accident,60 km/hr,Metro
-T20140015513,Other injury accident,30km/hr,Metro
+T20140015513,Other injury accident,30 km/hr,Metro
 T20140015514,Serious injury accident,60 km/hr,Metro
 T20140015517,Other injury accident,60 km/hr,Metro
 T20140015520,Other injury accident,40 km/hr,Metro
@@ -16578,7 +16578,7 @@ T20140021507,Other injury accident,Not known,Metro
 T20140021508,Other injury accident,60 km/hr,Metro
 T20140021509,Serious injury accident,60 km/hr,Country
 T20140021513,Other injury accident,60 km/hr,Country
-T20140020311,Other injury accident,30km/hr,Country
+T20140020311,Other injury accident,30 km/hr,Country
 T20140020312,Other injury accident,50 km/hr,Country
 T20140020314,Other injury accident,60 km/hr,Metro
 T20140020316,Other injury accident,80 km/hr,Country
@@ -18311,7 +18311,7 @@ T20140024580,Serious injury accident,60 km/hr,Metro
 T20140024581,Other injury accident,50 km/hr,Metro
 T20140024584,Serious injury accident,100 km/hr,Country
 T20140024585,Other injury accident,50 km/hr,Metro
-T20140024587,Serious injury accident,30km/hr,Metro
+T20140024587,Serious injury accident,30 km/hr,Metro
 T20140024590,Other injury accident,80 km/hr,Metro
 T20140024591,Other injury accident,Not known,Country
 T20140024592,Serious injury accident,Not known,Country
@@ -19242,7 +19242,7 @@ T20140021973,Other injury accident,50 km/hr,Metro
 T20140021978,Other injury accident,60 km/hr,Metro
 T20140021979,Serious injury accident,40 km/hr,Metro
 T20140021980,Serious injury accident,50 km/hr,Metro
-T20140021982,Other injury accident,30km/hr,Metro
+T20140021982,Other injury accident,30 km/hr,Metro
 T20140021983,Other injury accident,70 km/hr,Metro
 T20140021989,Serious injury accident,100 km/hr,Metro
 T20140022354,Serious injury accident,80 km/hr,Metro
@@ -19385,7 +19385,7 @@ T20140023260,Other injury accident,60 km/hr,Metro
 T20140023261,Serious injury accident,50 km/hr,Metro
 T20140023263,Other injury accident,60 km/hr,Metro
 T20140023265,Other injury accident,80 km/hr,Metro
-T20140023267,Other injury accident,30km/hr,Country
+T20140023267,Other injury accident,30 km/hr,Country
 T20140023268,Serious injury accident,100 km/hr,Country
 T20140023272,Other injury accident,50 km/hr,Metro
 T20140022041,Fatal accident,80 km/hr,Metro
@@ -22385,7 +22385,7 @@ T20150001730,Serious injury accident,60 km/hr,Metro
 T20150001733,Serious injury accident,100 km/hr,Metro
 T20150001735,Other injury accident,100 km/hr,Metro
 T20150001736,Other injury accident,60 km/hr,Metro
-T20150001739,Other injury accident,30km/hr,Metro
+T20150001739,Other injury accident,30 km/hr,Metro
 T20150001740,Other injury accident,60 km/hr,Metro
 T20150001741,Other injury accident,60 km/hr,Metro
 T20150001743,Other injury accident,50 km/hr,Metro
@@ -22748,7 +22748,7 @@ T20150001909,Other injury accident,80 km/hr,Metro
 T20150001911,Serious injury accident,50 km/hr,Metro
 T20150001912,Serious injury accident,50 km/hr,Metro
 T20150001913,Fatal accident,60 km/hr,Metro
-T20150001915,Other injury accident,30km/hr,Metro
+T20150001915,Other injury accident,30 km/hr,Metro
 T20150001916,Other injury accident,40 km/hr,Metro
 T20150001917,Other injury accident,60 km/hr,Metro
 T20150001918,Other injury accident,60 km/hr,Metro
@@ -23078,7 +23078,7 @@ T20150006633,Serious injury accident,60 km/hr,Metro
 T20150006638,Other injury accident,50 km/hr,Metro
 T20150006639,Serious injury accident,80 km/hr,Metro
 T20150006643,Other injury accident,50 km/hr,Metro
-T20150006645,Other injury accident,30km/hr,Metro
+T20150006645,Other injury accident,30 km/hr,Metro
 T20150006647,Serious injury accident,60 km/hr,Country
 T20150006648,Other injury accident,70 km/hr,Metro
 T20150007023,Other injury accident,40 km/hr,Metro
@@ -23765,7 +23765,7 @@ T20150004712,Other injury accident,100 km/hr,Country
 T20150004713,Other injury accident,60 km/hr,Country
 T20150004714,Other injury accident,100 km/hr,Metro
 T20150004716,Serious injury accident,60 km/hr,Metro
-T20150004718,Other injury accident,30km/hr,Metro
+T20150004718,Other injury accident,30 km/hr,Metro
 T20150004719,Other injury accident,50 km/hr,Metro
 T20150004721,Serious injury accident,100 km/hr,Country
 T20150004722,Other injury accident,Not known,Metro
@@ -24276,7 +24276,7 @@ T20150004553,Other injury accident,100 km/hr,Country
 T20150004554,Other injury accident,50 km/hr,Country
 T20150004558,Other injury accident,100 km/hr,Metro
 T20150004559,Serious injury accident,80 km/hr,Country
-T20150004560,Other injury accident,30km/hr,Metro
+T20150004560,Other injury accident,30 km/hr,Metro
 T20150004956,Other injury accident,70 km/hr,Metro
 T20150004957,Serious injury accident,50 km/hr,Metro
 T20150004958,Serious injury accident,50 km/hr,Metro
@@ -24640,7 +24640,7 @@ T20150008934,Other injury accident,Not known,Metro
 T20150008937,Other injury accident,50 km/hr,Country
 T20150008938,Other injury accident,Not known,Country
 T20150008940,Other injury accident,100 km/hr,Country
-T20150008941,Other injury accident,30km/hr,Country
+T20150008941,Other injury accident,30 km/hr,Country
 T20150009314,Other injury accident,80 km/hr,Country
 T20150009315,Serious injury accident,100 km/hr,Country
 T20150009316,Other injury accident,60 km/hr,Metro
@@ -25665,7 +25665,7 @@ T20150007905,Other injury accident,60 km/hr,Metro
 T20150007906,Other injury accident,70 km/hr,Metro
 T20150007907,Other injury accident,60 km/hr,Metro
 T20150007908,Other injury accident,100 km/hr,Metro
-T20150007910,Other injury accident,30km/hr,Country
+T20150007910,Other injury accident,30 km/hr,Country
 T20150007914,Other injury accident,Not known,Metro
 T20150007915,Other injury accident,50 km/hr,Metro
 T20150008262,Other injury accident,40 km/hr,Country
@@ -26551,7 +26551,7 @@ T20150012584,Other injury accident,60 km/hr,Metro
 T20150012585,Other injury accident,40 km/hr,Country
 T20150012587,Other injury accident,60 km/hr,Metro
 T20150012588,Other injury accident,70 km/hr,Metro
-T20150012594,Other injury accident,30km/hr,Metro
+T20150012594,Other injury accident,30 km/hr,Metro
 T20150012962,Serious injury accident,100 km/hr,Metro
 T20150012964,Serious injury accident,60 km/hr,Metro
 T20150012968,Other injury accident,Not known,Metro
@@ -27081,7 +27081,7 @@ T20150010509,Other injury accident,Not known,Country
 T20150010510,Other injury accident,50 km/hr,Metro
 T20150010511,Serious injury accident,70 km/hr,Metro
 T20150010512,Other injury accident,60 km/hr,Metro
-T20150010513,Serious injury accident,30km/hr,Metro
+T20150010513,Serious injury accident,30 km/hr,Metro
 T20150010514,Serious injury accident,40 km/hr,Metro
 T20150010515,Other injury accident,Not known,Metro
 T20150010516,Other injury accident,40 km/hr,Metro
@@ -27434,7 +27434,7 @@ T20150010279,Other injury accident,60 km/hr,Country
 T20150010280,Serious injury accident,80 km/hr,Metro
 T20150010283,Other injury accident,60 km/hr,Metro
 T20150010286,Other injury accident,80 km/hr,Metro
-T20150010287,Other injury accident,30km/hr,Metro
+T20150010287,Other injury accident,30 km/hr,Metro
 T20150010288,Other injury accident,60 km/hr,Metro
 T20150010662,Other injury accident,60 km/hr,Metro
 T20150010663,Serious injury accident,100 km/hr,Metro
@@ -27865,7 +27865,7 @@ T20150015193,Serious injury accident,100 km/hr,Country
 T20150015198,Other injury accident,100 km/hr,Country
 T20150015199,Other injury accident,40 km/hr,Metro
 T20150015201,Serious injury accident,100 km/hr,Country
-T20150015560,Other injury accident,30km/hr,Country
+T20150015560,Other injury accident,30 km/hr,Country
 T20150015562,Serious injury accident,60 km/hr,Metro
 T20150015563,Other injury accident,50 km/hr,Metro
 T20150015566,Serious injury accident,80 km/hr,Metro
@@ -28900,7 +28900,7 @@ T20150014540,Other injury accident,60 km/hr,Metro
 T20150014541,Serious injury accident,100 km/hr,Country
 T20150014543,Other injury accident,40 km/hr,Metro
 T20150014547,Fatal accident,100 km/hr,Country
-T20150014553,Other injury accident,30km/hr,Country
+T20150014553,Other injury accident,30 km/hr,Country
 T20150014555,Other injury accident,60 km/hr,Metro
 T20150014558,Other injury accident,60 km/hr,Metro
 T20150014559,Serious injury accident,80 km/hr,Metro
@@ -29522,7 +29522,7 @@ T20150019165,Other injury accident,80 km/hr,Metro
 T20150019166,Other injury accident,60 km/hr,Metro
 T20150019167,Serious injury accident,100 km/hr,Metro
 T20150019173,Other injury accident,60 km/hr,Country
-T20150019174,Other injury accident,30km/hr,Metro
+T20150019174,Other injury accident,30 km/hr,Metro
 T20150019175,Serious injury accident,100 km/hr,Country
 T20150019177,Serious injury accident,60 km/hr,Metro
 T20150019178,Other injury accident,100 km/hr,Country
@@ -29536,7 +29536,7 @@ T20150019593,Other injury accident,40 km/hr,Country
 T20150019596,Other injury accident,80 km/hr,Metro
 T20150019600,Other injury accident,60 km/hr,Metro
 T20150019605,Serious injury accident,Not known,Country
-T20150019606,Other injury accident,30km/hr,Metro
+T20150019606,Other injury accident,30 km/hr,Metro
 T20150019608,Other injury accident,100 km/hr,Country
 T20150019609,Other injury accident,40 km/hr,Metro
 T20150019613,Other injury accident,100 km/hr,Country
@@ -29868,7 +29868,7 @@ T20150018537,Other injury accident,40 km/hr,Metro
 T20150018539,Other injury accident,40 km/hr,Metro
 T20150018540,Serious injury accident,60 km/hr,Metro
 T20150018932,Other injury accident,70 km/hr,Metro
-T20150018935,Serious injury accident,30km/hr,Country
+T20150018935,Serious injury accident,30 km/hr,Country
 T20150018937,Other injury accident,70 km/hr,Metro
 T20150018940,Serious injury accident,60 km/hr,Metro
 T20150018941,Other injury accident,40 km/hr,Metro
@@ -31355,7 +31355,7 @@ T20150021645,Other injury accident,60 km/hr,Country
 T20150021990,Other injury accident,60 km/hr,Country
 T20150021991,Other injury accident,60 km/hr,Metro
 T20150021992,Other injury accident,100 km/hr,Country
-T20150021994,Other injury accident,30km/hr,Metro
+T20150021994,Other injury accident,30 km/hr,Metro
 T20150021995,Other injury accident,70 km/hr,Country
 T20150021996,Other injury accident,60 km/hr,Country
 T20150021997,Other injury accident,60 km/hr,Metro
@@ -31483,7 +31483,7 @@ T20150022432,Serious injury accident,Not known,Metro
 T20150022434,Serious injury accident,100 km/hr,Metro
 T20150022437,Other injury accident,100 km/hr,Country
 T20150021323,Other injury accident,60 km/hr,Metro
-T20150021325,Other injury accident,30km/hr,Metro
+T20150021325,Other injury accident,30 km/hr,Metro
 T20150021326,Other injury accident,80 km/hr,Metro
 T20150021327,Serious injury accident,Not known,Country
 T20150021328,Serious injury accident,100 km/hr,Country
@@ -32578,7 +32578,7 @@ T20150020317,Other injury accident,80 km/hr,Metro
 T20150020722,Other injury accident,60 km/hr,Country
 T20150020725,Fatal accident,100 km/hr,Country
 T20150020726,Other injury accident,40 km/hr,Metro
-T20150020727,Other injury accident,30km/hr,Country
+T20150020727,Other injury accident,30 km/hr,Country
 T20150020728,Other injury accident,100 km/hr,Country
 T20150020730,Other injury accident,60 km/hr,Metro
 T20150020732,Other injury accident,60 km/hr,Country
@@ -32735,7 +32735,7 @@ T20150024943,Other injury accident,Not known,Country
 T20150024944,Other injury accident,50 km/hr,Metro
 T20150024945,Other injury accident,60 km/hr,Country
 T20150024946,Other injury accident,60 km/hr,Country
-T20150024947,Other injury accident,30km/hr,Metro
+T20150024947,Other injury accident,30 km/hr,Metro
 T20150024949,Other injury accident,Not known,Metro
 T20150024952,Serious injury accident,60 km/hr,Metro
 T20150024953,Other injury accident,50 km/hr,Metro
@@ -32911,7 +32911,7 @@ T20150025388,Other injury accident,60 km/hr,Metro
 T20150025390,Other injury accident,50 km/hr,Metro
 T20150025391,Other injury accident,80 km/hr,Metro
 T20150025392,Other injury accident,60 km/hr,Metro
-T20150025393,Serious injury accident,30km/hr,Metro
+T20150025393,Serious injury accident,30 km/hr,Metro
 T20150025394,Other injury accident,50 km/hr,Metro
 T20150025744,Serious injury accident,60 km/hr,Metro
 T20150025745,Serious injury accident,80 km/hr,Country
@@ -33369,7 +33369,7 @@ T20150025246,Serious injury accident,70 km/hr,Metro
 T20150025247,Other injury accident,100 km/hr,Metro
 T20150025248,Serious injury accident,100 km/hr,Metro
 T20150025576,Other injury accident,60 km/hr,Country
-T20150025579,Other injury accident,30km/hr,Metro
+T20150025579,Other injury accident,30 km/hr,Metro
 T20150025580,Serious injury accident,Not known,Metro
 T20150025583,Other injury accident,100 km/hr,Metro
 T20150025591,Serious injury accident,100 km/hr,Country
@@ -33639,7 +33639,7 @@ T20150023068,Other injury accident,60 km/hr,Metro
 T20150023069,Other injury accident,50 km/hr,Metro
 T20150023070,Other injury accident,100 km/hr,Country
 T20150023072,Other injury accident,60 km/hr,Country
-T20150023073,Other injury accident,30km/hr,Country
+T20150023073,Other injury accident,30 km/hr,Country
 T20150023075,Other injury accident,60 km/hr,Metro
 T20150023078,Serious injury accident,60 km/hr,Metro
 T20150023514,Other injury accident,Not known,Metro
@@ -34323,7 +34323,7 @@ T20160000663,Other injury accident,60 km/hr,Country
 T20160000666,Other injury accident,60 km/hr,Metro
 T20160000667,Other injury accident,Not known,Metro
 T20160000668,Serious injury accident,Not known,Country
-T20160000670,Serious injury accident,30km/hr,Metro
+T20160000670,Serious injury accident,30 km/hr,Metro
 T20160000672,Serious injury accident,50 km/hr,Metro
 T20160000673,Other injury accident,60 km/hr,Metro
 T20160000674,Other injury accident,60 km/hr,Metro
@@ -36041,7 +36041,7 @@ T20160004556,Other injury accident,40 km/hr,Metro
 T20160004560,Other injury accident,50 km/hr,Country
 T20160004563,Serious injury accident,100 km/hr,Country
 T20160004564,Serious injury accident,60 km/hr,Metro
-T20160004566,Other injury accident,30km/hr,Metro
+T20160004566,Other injury accident,30 km/hr,Metro
 T20160004567,Other injury accident,50 km/hr,Metro
 T20160004569,Serious injury accident,100 km/hr,Metro
 T20160004570,Other injury accident,70 km/hr,Metro
@@ -36402,7 +36402,7 @@ T20160004341,Serious injury accident,50 km/hr,Metro
 T20160003203,Other injury accident,60 km/hr,Country
 T20160003205,Other injury accident,60 km/hr,Metro
 T20160003206,Other injury accident,60 km/hr,Metro
-T20160003207,Other injury accident,30km/hr,Metro
+T20160003207,Other injury accident,30 km/hr,Metro
 T20160003208,Serious injury accident,60 km/hr,Metro
 T20160003209,Other injury accident,80 km/hr,Metro
 T20160003211,Serious injury accident,60 km/hr,Metro
@@ -37650,7 +37650,7 @@ T20160006522,Other injury accident,80 km/hr,Metro
 T20160006920,Other injury accident,60 km/hr,Metro
 T20160006924,Other injury accident,Off road,Country
 T20160006925,Other injury accident,60 km/hr,Metro
-T20160006926,Other injury accident,30km/hr,Metro
+T20160006926,Other injury accident,30 km/hr,Metro
 T20160006928,Other injury accident,100 km/hr,Country
 T20160006930,Other injury accident,80 km/hr,Country
 T20160006931,Other injury accident,40 km/hr,Metro
@@ -37986,7 +37986,7 @@ T20160007498,Other injury accident,100 km/hr,Country
 T20160007504,Other injury accident,70 km/hr,Metro
 T20160007505,Serious injury accident,60 km/hr,Metro
 T20160006298,Other injury accident,80 km/hr,Metro
-T20160006299,Other injury accident,30km/hr,Metro
+T20160006299,Other injury accident,30 km/hr,Metro
 T20160006300,Other injury accident,80 km/hr,Metro
 T20160006304,Other injury accident,60 km/hr,Metro
 T20160006305,Other injury accident,60 km/hr,Country
@@ -38602,7 +38602,7 @@ T20160004990,Other injury accident,100 km/hr,Country
 T20160004991,Serious injury accident,60 km/hr,Metro
 T20160004993,Other injury accident,80 km/hr,Metro
 T20160004994,Fatal accident,110 km/hr,Country
-T20160004996,Other injury accident,30km/hr,Metro
+T20160004996,Other injury accident,30 km/hr,Metro
 T20160004997,Other injury accident,80 km/hr,Metro
 T20160004998,Other injury accident,60 km/hr,Metro
 T20160004999,Fatal accident,70 km/hr,Metro
@@ -39944,7 +39944,7 @@ T20160009621,Other injury accident,60 km/hr,Metro
 T20160009623,Other injury accident,60 km/hr,Metro
 T20160009624,Other injury accident,40 km/hr,Metro
 T20160009625,Other injury accident,Not known,Metro
-T20160009627,Other injury accident,30km/hr,Metro
+T20160009627,Other injury accident,30 km/hr,Metro
 T20160009629,Fatal accident,110 km/hr,Country
 T20160009631,Other injury accident,80 km/hr,Metro
 T20160009634,Other injury accident,60 km/hr,Metro
@@ -40170,7 +40170,7 @@ T20160008961,Other injury accident,Off road,Country
 T20160008964,Other injury accident,60 km/hr,Metro
 T20160008965,Serious injury accident,70 km/hr,Metro
 T20160008971,Other injury accident,80 km/hr,Metro
-T20160008973,Other injury accident,30km/hr,Metro
+T20160008973,Other injury accident,30 km/hr,Metro
 T20160009345,Serious injury accident,Not known,Metro
 T20160009348,Other injury accident,80 km/hr,Metro
 T20160009349,Other injury accident,40 km/hr,Metro
@@ -40415,7 +40415,7 @@ T20160008683,Other injury accident,Not known,Metro
 T20160008684,Other injury accident,60 km/hr,Metro
 T20160008685,Other injury accident,60 km/hr,Country
 T20160008686,Other injury accident,60 km/hr,Country
-T20160008688,Serious injury accident,30km/hr,Metro
+T20160008688,Serious injury accident,30 km/hr,Metro
 T20160008689,Other injury accident,60 km/hr,Metro
 T20160008690,Other injury accident,Not known,Metro
 T20160009080,Serious injury accident,80 km/hr,Country
@@ -40690,7 +40690,7 @@ T20160009216,Other injury accident,Not known,Metro
 T20160009217,Other injury accident,50 km/hr,Metro
 T20160009219,Other injury accident,50 km/hr,Country
 T20160009222,Other injury accident,50 km/hr,Metro
-T20160009223,Serious injury accident,30km/hr,Country
+T20160009223,Serious injury accident,30 km/hr,Country
 T20160009225,Other injury accident,80 km/hr,Metro
 T20160007998,Serious injury accident,60 km/hr,Metro
 T20160008000,Other injury accident,60 km/hr,Metro
@@ -42641,7 +42641,7 @@ T20160016945,Other injury accident,40 km/hr,Country
 T20160016946,Other injury accident,80 km/hr,Metro
 T20160016947,Other injury accident,100 km/hr,Country
 T20160016948,Serious injury accident,60 km/hr,Country
-T20160016949,Other injury accident,30km/hr,Metro
+T20160016949,Other injury accident,30 km/hr,Metro
 T20160016950,Other injury accident,Not known,Metro
 T20160017354,Other injury accident,50 km/hr,Country
 T20160017356,Other injury accident,60 km/hr,Metro
@@ -42789,7 +42789,7 @@ T20160016635,Other injury accident,100 km/hr,Metro
 T20160017010,Serious injury accident,60 km/hr,Metro
 T20160017014,Other injury accident,60 km/hr,Metro
 T20160017016,Other injury accident,60 km/hr,Metro
-T20160017019,Other injury accident,30km/hr,Metro
+T20160017019,Other injury accident,30 km/hr,Metro
 T20160017021,Serious injury accident,70 km/hr,Metro
 T20160017024,Other injury accident,40 km/hr,Metro
 T20160017029,Serious injury accident,60 km/hr,Metro
@@ -43653,7 +43653,7 @@ T20160015495,Other injury accident,50 km/hr,Metro
 T20160015496,Other injury accident,110 km/hr,Country
 T20160015497,Serious injury accident,80 km/hr,Metro
 T20160015498,Other injury accident,80 km/hr,Metro
-T20160015499,Serious injury accident,30km/hr,Metro
+T20160015499,Serious injury accident,30 km/hr,Metro
 T20160015502,Other injury accident,50 km/hr,Metro
 T20160015505,Serious injury accident,50 km/hr,Country
 T20160015506,Other injury accident,60 km/hr,Metro
@@ -43980,7 +43980,7 @@ T20160014335,Other injury accident,Not known,Country
 T20160014336,Other injury accident,100 km/hr,Country
 T20160014337,Other injury accident,80 km/hr,Metro
 T20160014338,Other injury accident,100 km/hr,Country
-T20160014343,Other injury accident,30km/hr,Country
+T20160014343,Other injury accident,30 km/hr,Country
 T20160014344,Other injury accident,60 km/hr,Metro
 T20160014349,Serious injury accident,70 km/hr,Metro
 T20160014353,Other injury accident,40 km/hr,Metro
@@ -44603,7 +44603,7 @@ T20160019126,Other injury accident,50 km/hr,Metro
 T20160019129,Other injury accident,60 km/hr,Metro
 T20160019130,Other injury accident,60 km/hr,Metro
 T20160019131,Serious injury accident,60 km/hr,Metro
-T20160019132,Other injury accident,30km/hr,Metro
+T20160019132,Other injury accident,30 km/hr,Metro
 T20160019134,Other injury accident,50 km/hr,Country
 T20160019136,Serious injury accident,80 km/hr,Metro
 T20160019143,Other injury accident,50 km/hr,Metro
@@ -44754,7 +44754,7 @@ T20160020470,Other injury accident,60 km/hr,Metro
 T20160020472,Serious injury accident,100 km/hr,Metro
 T20160019201,Serious injury accident,100 km/hr,Metro
 T20160019205,Other injury accident,60 km/hr,Metro
-T20160019206,Serious injury accident,30km/hr,Metro
+T20160019206,Serious injury accident,30 km/hr,Metro
 T20160019209,Serious injury accident,100 km/hr,Country
 T20160019216,Serious injury accident,50 km/hr,Metro
 T20160019217,Other injury accident,Not known,Metro
@@ -45926,7 +45926,7 @@ T20160023497,Serious injury accident,100 km/hr,Country
 T20160023498,Other injury accident,70 km/hr,Metro
 T20160023889,Other injury accident,80 km/hr,Metro
 T20160023891,Serious injury accident,100 km/hr,Country
-T20160023892,Other injury accident,30km/hr,Metro
+T20160023892,Other injury accident,30 km/hr,Metro
 T20160023895,Other injury accident,Not known,Country
 T20160023900,Other injury accident,60 km/hr,Metro
 T20160023903,Serious injury accident,100 km/hr,Country
@@ -46256,7 +46256,7 @@ T20160022823,Other injury accident,80 km/hr,Metro
 T20160022824,Other injury accident,100 km/hr,Country
 T20160022827,Other injury accident,80 km/hr,Metro
 T20160022828,Other injury accident,100 km/hr,Country
-T20160022830,Other injury accident,30km/hr,Metro
+T20160022830,Other injury accident,30 km/hr,Metro
 T20160022831,Serious injury accident,50 km/hr,Metro
 T20160022834,Serious injury accident,60 km/hr,Metro
 T20160022836,Other injury accident,60 km/hr,Metro
@@ -47019,7 +47019,7 @@ T20160021188,Other injury accident,60 km/hr,Metro
 T20160021621,Serious injury accident,100 km/hr,Country
 T20160021622,Other injury accident,100 km/hr,Metro
 T20160021625,Other injury accident,60 km/hr,Metro
-T20160021630,Other injury accident,30km/hr,Metro
+T20160021630,Other injury accident,30 km/hr,Metro
 T20160021631,Serious injury accident,100 km/hr,Country
 T20160021634,Other injury accident,80 km/hr,Metro
 T20160021635,Other injury accident,60 km/hr,Metro
@@ -47511,7 +47511,7 @@ T20160026663,Other injury accident,50 km/hr,Metro
 T20160026665,Serious injury accident,100 km/hr,Country
 T20160026670,Other injury accident,60 km/hr,Country
 T20160027042,Serious injury accident,90 km/hr,Metro
-T20160027043,Other injury accident,30km/hr,Metro
+T20160027043,Other injury accident,30 km/hr,Metro
 T20160027044,Other injury accident,80 km/hr,Metro
 T20160027045,Other injury accident,60 km/hr,Metro
 T20160027048,Other injury accident,60 km/hr,Country
@@ -48911,7 +48911,7 @@ T20160024563,Other injury accident,40 km/hr,Metro
 T20160024565,Serious injury accident,50 km/hr,Metro
 T20160024566,Serious injury accident,60 km/hr,Country
 T20160024567,Other injury accident,50 km/hr,Metro
-T20160024569,Other injury accident,30km/hr,Metro
+T20160024569,Other injury accident,30 km/hr,Metro
 T20160024571,Other injury accident,60 km/hr,Metro
 T20160024573,Other injury accident,100 km/hr,Metro
 T20160024574,Serious injury accident,100 km/hr,Metro
@@ -49652,7 +49652,7 @@ T20170001602,Other injury accident,50 km/hr,Country
 T20170001604,Other injury accident,80 km/hr,Metro
 T20170001607,Other injury accident,Not known,Metro
 T20170001609,Other injury accident,Not known,Metro
-T20170001611,Serious injury accident,30km/hr,Metro
+T20170001611,Serious injury accident,30 km/hr,Metro
 T20170001612,Other injury accident,60 km/hr,Metro
 T20170001613,Other injury accident,50 km/hr,Country
 T20170001615,Serious injury accident,100 km/hr,Metro
@@ -49961,7 +49961,7 @@ T20170000567,Other injury accident,100 km/hr,Country
 T20170000570,Other injury accident,60 km/hr,Metro
 T20170000571,Other injury accident,50 km/hr,Metro
 T20170000572,Other injury accident,60 km/hr,Country
-T20170000577,Other injury accident,30km/hr,Country
+T20170000577,Other injury accident,30 km/hr,Country
 T20170000579,Other injury accident,60 km/hr,Metro
 T20170000580,Other injury accident,60 km/hr,Metro
 T20170000582,Other injury accident,80 km/hr,Metro
@@ -50077,7 +50077,7 @@ T20160027527,Serious injury accident,50 km/hr,Metro
 T20160027529,Other injury accident,80 km/hr,Metro
 T20160027531,Other injury accident,60 km/hr,Country
 T20160027534,Other injury accident,60 km/hr,Metro
-T20160027536,Serious injury accident,30km/hr,Metro
+T20160027536,Serious injury accident,30 km/hr,Metro
 T20160027537,Other injury accident,40 km/hr,Metro
 T20160027539,Other injury accident,100 km/hr,Country
 T20160027541,Other injury accident,50 km/hr,Metro
@@ -50204,7 +50204,7 @@ T20160028045,Serious injury accident,50 km/hr,Metro
 T20160028050,Other injury accident,60 km/hr,Metro
 T20160028052,Other injury accident,100 km/hr,Metro
 T20170000273,Other injury accident,60 km/hr,Metro
-T20170000275,Other injury accident,30km/hr,Country
+T20170000275,Other injury accident,30 km/hr,Country
 T20170000278,Other injury accident,50 km/hr,Country
 T20170000280,Other injury accident,100 km/hr,Country
 T20170000281,Serious injury accident,100 km/hr,Metro
@@ -51074,14 +51074,14 @@ T20170004266,Serious injury accident,50 km/hr,Metro
 T20170004267,Other injury accident,60 km/hr,Metro
 T20170004268,Other injury accident,80 km/hr,Metro
 T20170004271,Other injury accident,60 km/hr,Metro
-T20170004272,Other injury accident,30km/hr,Country
+T20170004272,Other injury accident,30 km/hr,Country
 T20170004277,Other injury accident,60 km/hr,Metro
 T20170004628,Other injury accident,60 km/hr,Metro
 T20170004630,Other injury accident,Not known,Metro
 T20170004634,Other injury accident,70 km/hr,Metro
 T20170004635,Other injury accident,Not known,Country
 T20170004636,Other injury accident,Not known,Metro
-T20170004637,Serious injury accident,30km/hr,Metro
+T20170004637,Serious injury accident,30 km/hr,Metro
 T20170004642,Other injury accident,40 km/hr,Metro
 T20170004643,Other injury accident,80 km/hr,Metro
 T20170004651,Other injury accident,60 km/hr,Metro
@@ -51493,7 +51493,7 @@ T20170004466,Serious injury accident,80 km/hr,Metro
 T20170004467,Other injury accident,50 km/hr,Country
 T20170004469,Other injury accident,70 km/hr,Metro
 T20170004470,Other injury accident,60 km/hr,Metro
-T20170004829,Serious injury accident,30km/hr,Metro
+T20170004829,Serious injury accident,30 km/hr,Metro
 T20170004830,Serious injury accident,60 km/hr,Country
 T20170004832,Other injury accident,60 km/hr,Metro
 T20170004840,Other injury accident,80 km/hr,Metro
@@ -51634,7 +51634,7 @@ T20170002959,Serious injury accident,50 km/hr,Country
 T20170002961,Other injury accident,100 km/hr,Country
 T20170002965,Other injury accident,80 km/hr,Metro
 T20170002966,Other injury accident,50 km/hr,Metro
-T20170002967,Other injury accident,30km/hr,Metro
+T20170002967,Other injury accident,30 km/hr,Metro
 T20170002968,Other injury accident,60 km/hr,Metro
 T20170002969,Other injury accident,100 km/hr,Metro
 T20170003357,Serious injury accident,100 km/hr,Country
@@ -51668,7 +51668,7 @@ T20170002543,Other injury accident,Not known,Metro
 T20170002545,Other injury accident,80 km/hr,Metro
 T20170002550,Other injury accident,70 km/hr,Metro
 T20170002551,Serious injury accident,70 km/hr,Metro
-T20170002560,Serious injury accident,30km/hr,Country
+T20170002560,Serious injury accident,30 km/hr,Country
 T20170002561,Other injury accident,60 km/hr,Country
 T20170002563,Serious injury accident,60 km/hr,Metro
 T20170002564,Other injury accident,50 km/hr,Metro
@@ -52403,7 +52403,7 @@ T20170007262,Other injury accident,Off road,Country
 T20170007263,Other injury accident,40 km/hr,Metro
 T20170007267,Other injury accident,60 km/hr,Metro
 T20170007269,Other injury accident,100 km/hr,Metro
-T20170007273,Serious injury accident,30km/hr,Metro
+T20170007273,Serious injury accident,30 km/hr,Metro
 T20170007650,Other injury accident,100 km/hr,Country
 T20170007652,Serious injury accident,40 km/hr,Metro
 T20170007654,Serious injury accident,60 km/hr,Metro
@@ -52594,7 +52594,7 @@ T20170008543,Serious injury accident,100 km/hr,Country
 T20170008544,Serious injury accident,100 km/hr,Country
 T20170008545,Serious injury accident,100 km/hr,Metro
 T20170008546,Other injury accident,100 km/hr,Country
-T20170008547,Serious injury accident,30km/hr,Country
+T20170008547,Serious injury accident,30 km/hr,Country
 T20170008549,Fatal accident,70 km/hr,Metro
 T20170008554,Other injury accident,60 km/hr,Metro
 T20170008555,Other injury accident,60 km/hr,Metro
@@ -53770,7 +53770,7 @@ T20170005553,Serious injury accident,50 km/hr,Metro
 T20170005557,Other injury accident,60 km/hr,Metro
 T20170005558,Other injury accident,80 km/hr,Metro
 T20170005922,Other injury accident,80 km/hr,Metro
-T20170005923,Other injury accident,30km/hr,Metro
+T20170005923,Other injury accident,30 km/hr,Metro
 T20170005924,Serious injury accident,Not known,Metro
 T20170005925,Other injury accident,80 km/hr,Metro
 T20170005934,Other injury accident,80 km/hr,Country
@@ -55068,7 +55068,7 @@ T20170009350,Other injury accident,60 km/hr,Country
 T20170009353,Fatal accident,60 km/hr,Metro
 T20170009356,Other injury accident,60 km/hr,Metro
 T20170009357,Other injury accident,Not known,Metro
-T20170009359,Other injury accident,30km/hr,Country
+T20170009359,Other injury accident,30 km/hr,Country
 T20170009360,Fatal accident,60 km/hr,Metro
 T20170009772,Other injury accident,80 km/hr,Metro
 T20170009773,Other injury accident,70 km/hr,Metro
@@ -56000,7 +56000,7 @@ T20170014481,Other injury accident,50 km/hr,Metro
 T20170014484,Other injury accident,100 km/hr,Metro
 T20170014485,Serious injury accident,80 km/hr,Metro
 T20170014489,Serious injury accident,100 km/hr,Country
-T20170014490,Serious injury accident,30km/hr,Metro
+T20170014490,Serious injury accident,30 km/hr,Metro
 T20170014496,Other injury accident,Not known,Country
 T20170014497,Other injury accident,80 km/hr,Metro
 T20170014498,Other injury accident,60 km/hr,Metro
@@ -56210,7 +56210,7 @@ T20170014597,Serious injury accident,100 km/hr,Country
 T20170014600,Other injury accident,60 km/hr,Metro
 T20170014601,Serious injury accident,40 km/hr,Metro
 T20170014605,Other injury accident,80 km/hr,Metro
-T20170014609,Other injury accident,30km/hr,Country
+T20170014609,Other injury accident,30 km/hr,Country
 T20170014610,Other injury accident,60 km/hr,Metro
 T20170014611,Serious injury accident,40 km/hr,Metro
 T20170014612,Other injury accident,60 km/hr,Metro
@@ -56314,7 +56314,7 @@ T20170014655,Other injury accident,80 km/hr,Metro
 T20170014656,Other injury accident,100 km/hr,Metro
 T20170014660,Other injury accident,80 km/hr,Metro
 T20170014662,Other injury accident,60 km/hr,Metro
-T20170014663,Other injury accident,30km/hr,Metro
+T20170014663,Other injury accident,30 km/hr,Metro
 T20170014664,Serious injury accident,50 km/hr,Metro
 T20170014666,Serious injury accident,40 km/hr,Country
 T20170014670,Other injury accident,80 km/hr,Metro
@@ -56393,7 +56393,7 @@ T20170013827,Other injury accident,80 km/hr,Metro
 T20170013828,Other injury accident,Not known,Metro
 T20170013834,Serious injury accident,60 km/hr,Metro
 T20170013835,Fatal accident,100 km/hr,Country
-T20170013836,Other injury accident,30km/hr,Metro
+T20170013836,Other injury accident,30 km/hr,Metro
 T20170013839,Other injury accident,50 km/hr,Metro
 T20170013847,Other injury accident,50 km/hr,Metro
 T20170013848,Other injury accident,100 km/hr,Country
@@ -56404,7 +56404,7 @@ T20170014258,Other injury accident,60 km/hr,Metro
 T20170014260,Other injury accident,40 km/hr,Metro
 T20170014265,Other injury accident,60 km/hr,Metro
 T20170014268,Serious injury accident,100 km/hr,Country
-T20170014269,Other injury accident,30km/hr,Metro
+T20170014269,Other injury accident,30 km/hr,Metro
 T20170014272,Serious injury accident,80 km/hr,Metro
 T20170014273,Serious injury accident,100 km/hr,Country
 T20170014274,Other injury accident,70 km/hr,Metro
@@ -56447,7 +56447,7 @@ T20170012565,Other injury accident,70 km/hr,Country
 T20170012566,Other injury accident,50 km/hr,Metro
 T20170012569,Serious injury accident,60 km/hr,Country
 T20170012570,Other injury accident,100 km/hr,Country
-T20170012571,Serious injury accident,30km/hr,Metro
+T20170012571,Serious injury accident,30 km/hr,Metro
 T20170012572,Other injury accident,50 km/hr,Metro
 T20170012573,Serious injury accident,60 km/hr,Metro
 T20170012978,Other injury accident,70 km/hr,Metro
@@ -56875,7 +56875,7 @@ T20170013193,Serious injury accident,60 km/hr,Country
 T20170013196,Serious injury accident,40 km/hr,Metro
 T20170013197,Other injury accident,40 km/hr,Metro
 T20170013199,Serious injury accident,40 km/hr,Metro
-T20170013203,Serious injury accident,30km/hr,Metro
+T20170013203,Serious injury accident,30 km/hr,Metro
 T20170013205,Other injury accident,40 km/hr,Metro
 T20170013206,Serious injury accident,80 km/hr,Metro
 T20170013207,Serious injury accident,80 km/hr,Metro
@@ -57469,7 +57469,7 @@ T20170017436,Other injury accident,60 km/hr,Metro
 T20170017438,Serious injury accident,100 km/hr,Country
 T20170017439,Other injury accident,60 km/hr,Metro
 T20170017440,Serious injury accident,60 km/hr,Metro
-T20170017441,Other injury accident,30km/hr,Country
+T20170017441,Other injury accident,30 km/hr,Country
 T20170017442,Other injury accident,100 km/hr,Country
 T20170017443,Serious injury accident,70 km/hr,Metro
 T20170017445,Serious injury accident,60 km/hr,Metro
@@ -58967,7 +58967,7 @@ T20170021154,Other injury accident,60 km/hr,Metro
 T20170021160,Fatal accident,80 km/hr,Country
 T20170021163,Serious injury accident,100 km/hr,Country
 T20170021166,Serious injury accident,80 km/hr,Metro
-T20170021167,Serious injury accident,30km/hr,Metro
+T20170021167,Serious injury accident,30 km/hr,Metro
 T20170021168,Other injury accident,60 km/hr,Metro
 T20170021172,Serious injury accident,50 km/hr,Country
 T20170021177,Other injury accident,80 km/hr,Metro
@@ -59193,7 +59193,7 @@ T20170021695,Other injury accident,60 km/hr,Country
 T20170021696,Other injury accident,100 km/hr,Country
 T20170021699,Serious injury accident,60 km/hr,Metro
 T20170021700,Serious injury accident,80 km/hr,Metro
-T20170021701,Other injury accident,30km/hr,Country
+T20170021701,Other injury accident,30 km/hr,Country
 T20170021702,Other injury accident,70 km/hr,Metro
 T20170020458,Other injury accident,50 km/hr,Metro
 T20170020460,Serious injury accident,100 km/hr,Metro
@@ -59221,7 +59221,7 @@ T20170020892,Other injury accident,50 km/hr,Metro
 T20170020894,Other injury accident,70 km/hr,Country
 T20170020898,Other injury accident,50 km/hr,Metro
 T20170020901,Other injury accident,Not known,Metro
-T20170021290,Other injury accident,30km/hr,Metro
+T20170021290,Other injury accident,30 km/hr,Metro
 T20170021291,Other injury accident,60 km/hr,Metro
 T20170021292,Serious injury accident,60 km/hr,Country
 T20170021293,Other injury accident,40 km/hr,Metro
@@ -60761,7 +60761,7 @@ T20170024465,Other injury accident,50 km/hr,Metro
 T20170024466,Other injury accident,60 km/hr,Metro
 T20170024467,Fatal accident,100 km/hr,Country
 T20170024469,Other injury accident,50 km/hr,Metro
-T20170024473,Other injury accident,30km/hr,Metro
+T20170024473,Other injury accident,30 km/hr,Metro
 T20170024474,Serious injury accident,100 km/hr,Country
 T20170024476,Other injury accident,60 km/hr,Metro
 T20170024479,Other injury accident,50 km/hr,Metro
@@ -62561,7 +62561,7 @@ T20180002990,Other injury accident,80 km/hr,Metro
 T20180002992,Serious injury accident,60 km/hr,Country
 T20180002994,Serious injury accident,100 km/hr,Metro
 T20180002995,Other injury accident,80 km/hr,Metro
-T20180002999,Other injury accident,30km/hr,Country
+T20180002999,Other injury accident,30 km/hr,Country
 T20180003001,Other injury accident,60 km/hr,Metro
 T20180003002,Other injury accident,80 km/hr,Metro
 T20180003006,Other injury accident,70 km/hr,Metro
@@ -64466,7 +64466,7 @@ T20180006526,Other injury accident,50 km/hr,Country
 T20180006528,Other injury accident,100 km/hr,Metro
 T20180006529,Other injury accident,50 km/hr,Country
 T20180006911,Other injury accident,60 km/hr,Metro
-T20180006913,Other injury accident,30km/hr,Metro
+T20180006913,Other injury accident,30 km/hr,Metro
 T20180006917,Other injury accident,60 km/hr,Metro
 T20180006918,Serious injury accident,60 km/hr,Metro
 T20180006921,Other injury accident,50 km/hr,Metro
@@ -64507,7 +64507,7 @@ T20180006098,Other injury accident,60 km/hr,Metro
 T20180006530,Other injury accident,Not known,Metro
 T20180006531,Other injury accident,40 km/hr,Country
 T20180006532,Other injury accident,70 km/hr,Metro
-T20180006533,Other injury accident,30km/hr,Metro
+T20180006533,Other injury accident,30 km/hr,Metro
 T20180006535,Other injury accident,100 km/hr,Metro
 T20180006537,Serious injury accident,100 km/hr,Country
 T20180006538,Other injury accident,Not known,Metro
@@ -65442,7 +65442,7 @@ T20180005313,Serious injury accident,70 km/hr,Metro
 T20180005317,Serious injury accident,60 km/hr,Metro
 T20180005319,Other injury accident,100 km/hr,Metro
 T20180004021,Other injury accident,60 km/hr,Country
-T20180004022,Other injury accident,30km/hr,Metro
+T20180004022,Other injury accident,30 km/hr,Metro
 T20180004023,Fatal accident,50 km/hr,Metro
 T20180004025,Other injury accident,60 km/hr,Metro
 T20180004026,Other injury accident,100 km/hr,Country
@@ -65486,7 +65486,7 @@ T20180010078,Serious injury accident,100 km/hr,Metro
 T20180010081,Other injury accident,60 km/hr,Metro
 T20180010083,Other injury accident,100 km/hr,Metro
 T20180010086,Other injury accident,50 km/hr,Metro
-T20180010091,Other injury accident,30km/hr,Metro
+T20180010091,Other injury accident,30 km/hr,Metro
 T20180010093,Serious injury accident,80 km/hr,Metro
 T20180010094,Serious injury accident,100 km/hr,Country
 T20180010095,Serious injury accident,60 km/hr,Metro
@@ -65727,7 +65727,7 @@ T20180009340,Other injury accident,100 km/hr,Country
 T20180009341,Other injury accident,40 km/hr,Metro
 T20180009342,Other injury accident,70 km/hr,Country
 T20180009343,Serious injury accident,60 km/hr,Metro
-T20180009747,Other injury accident,30km/hr,Metro
+T20180009747,Other injury accident,30 km/hr,Metro
 T20180009750,Other injury accident,80 km/hr,Country
 T20180009751,Other injury accident,60 km/hr,Metro
 T20180009752,Serious injury accident,80 km/hr,Metro
@@ -66839,7 +66839,7 @@ T20180007754,Serious injury accident,40 km/hr,Metro
 T20180007756,Other injury accident,100 km/hr,Metro
 T20180007757,Other injury accident,50 km/hr,Metro
 T20180007758,Other injury accident,60 km/hr,Country
-T20180007759,Other injury accident,30km/hr,Country
+T20180007759,Other injury accident,30 km/hr,Country
 T20180007763,Other injury accident,60 km/hr,Metro
 T20180007764,Serious injury accident,60 km/hr,Metro
 T20180007765,Other injury accident,Not known,Country
@@ -69087,7 +69087,7 @@ T20180017560,Serious injury accident,100 km/hr,Country
 T20180017562,Other injury accident,Not known,Metro
 T20180017563,Serious injury accident,60 km/hr,Country
 T20180017564,Other injury accident,60 km/hr,Country
-T20180016216,Other injury accident,30km/hr,Metro
+T20180016216,Other injury accident,30 km/hr,Metro
 T20180016218,Other injury accident,100 km/hr,Metro
 T20180016219,Other injury accident,60 km/hr,Metro
 T20180016224,Other injury accident,60 km/hr,Metro
@@ -69276,7 +69276,7 @@ T20180017187,Other injury accident,100 km/hr,Country
 T20180017191,Other injury accident,Not known,Metro
 T20180017193,Other injury accident,110 km/hr,Country
 T20180017202,Other injury accident,60 km/hr,Metro
-T20180017204,Other injury accident,30km/hr,Metro
+T20180017204,Other injury accident,30 km/hr,Metro
 T20180017207,Serious injury accident,60 km/hr,Metro
 T20180017213,Other injury accident,50 km/hr,Metro
 T20180017214,Other injury accident,50 km/hr,Metro
@@ -69742,7 +69742,7 @@ T20180016149,Other injury accident,60 km/hr,Metro
 T20180016152,Other injury accident,50 km/hr,Country
 T20180016154,Serious injury accident,40 km/hr,Metro
 T20180016157,Other injury accident,60 km/hr,Metro
-T20180016158,Serious injury accident,30km/hr,Country
+T20180016158,Serious injury accident,30 km/hr,Country
 T20180016159,Serious injury accident,40 km/hr,Metro
 T20180016160,Other injury accident,100 km/hr,Country
 T20180016161,Other injury accident,60 km/hr,Country
@@ -71084,7 +71084,7 @@ T20180021374,Other injury accident,60 km/hr,Metro
 T20180021375,Serious injury accident,40 km/hr,Metro
 T20180021376,Serious injury accident,60 km/hr,Metro
 T20180021377,Other injury accident,60 km/hr,Metro
-T20180021380,Serious injury accident,30km/hr,Metro
+T20180021380,Serious injury accident,30 km/hr,Metro
 T20180021382,Serious injury accident,60 km/hr,Metro
 T20180021384,Serious injury accident,80 km/hr,Metro
 T20180021386,Other injury accident,60 km/hr,Metro
@@ -71136,7 +71136,7 @@ T20180021398,Other injury accident,60 km/hr,Metro
 T20180021404,Other injury accident,50 km/hr,Country
 T20180021407,Other injury accident,40 km/hr,Metro
 T20180021408,Other injury accident,50 km/hr,Metro
-T20180021412,Other injury accident,30km/hr,Metro
+T20180021412,Other injury accident,30 km/hr,Metro
 T20180021414,Other injury accident,100 km/hr,Metro
 T20180021417,Other injury accident,60 km/hr,Country
 T20180021421,Serious injury accident,80 km/hr,Metro
@@ -71409,7 +71409,7 @@ T20180018900,Other injury accident,60 km/hr,Metro
 T20180018901,Serious injury accident,100 km/hr,Country
 T20180018905,Other injury accident,50 km/hr,Metro
 T20180018909,Other injury accident,60 km/hr,Metro
-T20180018910,Serious injury accident,30km/hr,Country
+T20180018910,Serious injury accident,30 km/hr,Country
 T20180018912,Other injury accident,60 km/hr,Metro
 T20180018913,Other injury accident,70 km/hr,Metro
 T20180018915,Other injury accident,50 km/hr,Country
@@ -71533,7 +71533,7 @@ T20180019427,Other injury accident,40 km/hr,Metro
 T20180019428,Other injury accident,50 km/hr,Metro
 T20180019431,Other injury accident,50 km/hr,Metro
 T20180019432,Other injury accident,60 km/hr,Metro
-T20180018051,Other injury accident,30km/hr,Metro
+T20180018051,Other injury accident,30 km/hr,Metro
 T20180018052,Other injury accident,50 km/hr,Country
 T20180018054,Serious injury accident,80 km/hr,Metro
 T20180018059,Other injury accident,60 km/hr,Metro
@@ -71797,7 +71797,7 @@ T20180018190,Other injury accident,80 km/hr,Metro
 T20180018193,Serious injury accident,70 km/hr,Metro
 T20180018195,Other injury accident,50 km/hr,Metro
 T20180018198,Other injury accident,60 km/hr,Country
-T20180018201,Other injury accident,30km/hr,Metro
+T20180018201,Other injury accident,30 km/hr,Metro
 T20180018203,Other injury accident,60 km/hr,Metro
 T20180018204,Other injury accident,70 km/hr,Metro
 T20180018207,Other injury accident,50 km/hr,Metro
@@ -72509,7 +72509,7 @@ T20190000112,Other injury accident,60 km/hr,Metro
 T20190000119,Serious injury accident,60 km/hr,Metro
 T20190000121,Other injury accident,60 km/hr,Metro
 T20190000125,Other injury accident,50 km/hr,Country
-T20190000126,Serious injury accident,30km/hr,Metro
+T20190000126,Serious injury accident,30 km/hr,Metro
 T20190000129,Other injury accident,40 km/hr,Metro
 T20190000627,Other injury accident,70 km/hr,Country
 T20190000629,Other injury accident,50 km/hr,Metro
@@ -72778,7 +72778,7 @@ T20190000767,Other injury accident,50 km/hr,Metro
 T20190000770,Other injury accident,60 km/hr,Metro
 T20190000775,Other injury accident,100 km/hr,Metro
 T20190000776,Serious injury accident,60 km/hr,Metro
-T20190000778,Other injury accident,30km/hr,Metro
+T20190000778,Other injury accident,30 km/hr,Metro
 T20190000782,Serious injury accident,80 km/hr,Metro
 T20190000784,Other injury accident,80 km/hr,Metro
 T20190000791,Serious injury accident,110 km/hr,Country
@@ -72846,7 +72846,7 @@ T20180022422,Other injury accident,60 km/hr,Metro
 T20180022428,Other injury accident,80 km/hr,Metro
 T20180022430,Other injury accident,60 km/hr,Metro
 T20180022441,Other injury accident,50 km/hr,Metro
-T20180022443,Other injury accident,30km/hr,Metro
+T20180022443,Other injury accident,30 km/hr,Metro
 T20180022444,Other injury accident,40 km/hr,Metro
 T20180022445,Other injury accident,80 km/hr,Metro
 T20180022902,Other injury accident,70 km/hr,Metro
@@ -72910,7 +72910,7 @@ T20180022950,Other injury accident,50 km/hr,Metro
 T20180022955,Serious injury accident,60 km/hr,Metro
 T20180022957,Other injury accident,50 km/hr,Metro
 T20180022961,Serious injury accident,100 km/hr,Country
-T20180022963,Other injury accident,30km/hr,Country
+T20180022963,Other injury accident,30 km/hr,Country
 T20180022964,Other injury accident,60 km/hr,Metro
 T20180022965,Other injury accident,80 km/hr,Country
 T20180022966,Other injury accident,50 km/hr,Metro
@@ -73264,7 +73264,7 @@ T20180022664,Other injury accident,80 km/hr,Country
 T20180022667,Other injury accident,50 km/hr,Country
 T20180022669,Other injury accident,100 km/hr,Country
 T20180022671,Other injury accident,Not known,Metro
-T20180022674,Other injury accident,30km/hr,Metro
+T20180022674,Other injury accident,30 km/hr,Metro
 T20180022682,Other injury accident,40 km/hr,Metro
 T20180023161,Other injury accident,40 km/hr,Metro
 T20180023162,Other injury accident,50 km/hr,Metro
@@ -73283,7 +73283,7 @@ T20180021687,Other injury accident,50 km/hr,Country
 T20180021688,Other injury accident,60 km/hr,Metro
 T20180021691,Other injury accident,60 km/hr,Metro
 T20180021694,Serious injury accident,60 km/hr,Metro
-T20180021695,Other injury accident,30km/hr,Metro
+T20180021695,Other injury accident,30 km/hr,Metro
 T20180021699,Serious injury accident,100 km/hr,Metro
 T20180021700,Other injury accident,80 km/hr,Metro
 T20180021704,Other injury accident,40 km/hr,Metro
@@ -74584,7 +74584,7 @@ T20190001180,Serious injury accident,100 km/hr,Country
 T20190001182,Serious injury accident,80 km/hr,Metro
 T20190001716,Other injury accident,60 km/hr,Metro
 T20190001718,Serious injury accident,80 km/hr,Metro
-T20190001719,Other injury accident,30km/hr,Country
+T20190001719,Other injury accident,30 km/hr,Country
 T20190001725,Other injury accident,50 km/hr,Metro
 T20190001731,Other injury accident,Not known,Country
 T20190001735,Serious injury accident,60 km/hr,Metro
@@ -74599,7 +74599,7 @@ T20190002367,Serious injury accident,50 km/hr,Country
 T20190002372,Other injury accident,60 km/hr,Metro
 T20190002373,Other injury accident,70 km/hr,Metro
 T20190002375,Serious injury accident,60 km/hr,Metro
-T20190002378,Other injury accident,30km/hr,Metro
+T20190002378,Other injury accident,30 km/hr,Metro
 T20190002379,Other injury accident,60 km/hr,Metro
 T20190002381,Serious injury accident,110 km/hr,Country
 T20190002383,Other injury accident,50 km/hr,Country
