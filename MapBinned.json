@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "Map of local gov area Victoria",
   "width": "container",
-  "height": "container",
   "title": "Victorian Crashes per 1000 People",
   "data": {
     "url": "https://sayujmonash.github.io/FIT3179/LocalGov2.json",
