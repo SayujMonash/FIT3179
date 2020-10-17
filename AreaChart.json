@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "container",
+  "height": "container",
+  "title": "Proportion of Accident Severity",
+  "data": {
+    "url": "https://sayujmonash.github.io/FIT3179/AreaChart.csv"
+  },
+    "transform": [
+    {
+      "filter": {
+        "field": "Region",
+        "equal": "Country"
+      }
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "order": {"field": "Order"},
+    "x": {
+      "field": "SPEED_ZONE",
+      "title": "Speed Zone",
+      "type": "nominal",
+      "sort": ["30 km/hr", "40 km/hr", "50 km/hr", "60 km/hr", "70 km/hr", "75 km/hr", "80 km/hr", "90 km/hr", "100 km/hr", "110 km/hr", "Off Road", "Other speed limit", "Not known"]     
+    },
+    "y": {
+      "aggregate": "count",
+      "field": "SEVERITY",
+      "stack": "normalize",
+      "type": "ordinal",
+      "title": "Proportion of Accidents"
+    },
+    "color": {
+      "field": "SEVERITY",
+      "scale": {
+        "domain": ["Other injury accident", "Serious injury accident", "Fatal accident"],
+        "range": ["#febd59", "#fd833a", "#de1b20"]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "SEVERITY",
+        "type": "nominal",
+        "title": "Accident Type"
+      },
+      {
+        "field": "SEVERITY",
+        "aggregate": "count",
+        "type": "quantitative",
+        "title": "Number of Accidents"
+      }
+    ]
+  },
+  
+    "config": {
+    "style": {
+    "cell": {
+      "stroke": "transparent"
+    }
+  }
+}
+}
