@@ -54,14 +54,14 @@
   
   <div class="page">
     
-    <!-- pure grid group -->
+    <!-- Title -->
     <div class="pure-g">
       <div class="pure-u-1-1">
         <h1 style="text-align:center;">Victorian Motor Crashes</h1>
         <p style="text-align:center;font-size:25px;">The difference between Metro and Country</p>
       </div>      
     </div>
-    <!-- end pure grid group -->
+    <!-- End Title -->
                                                      
     <!-- First section -->
     <div class="pure-g">
@@ -78,14 +78,32 @@
           <div id="LineGraphCountry" class="vis-container"></div>
         </div>                                                   
     </div>
-    <!-- First section -->                                                     
-                                                     
+    <!-- First section -->  
+    
+    <!-- Map Title -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h3>Motor Crashes per 1000 people</h3>
+      </div>      
+    </div>
+    <!-- End Map Title -->    
+
+    <!-- Map  -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="MapBinned" class="vis-container"></div>
+      </div>      
+    </div>
+    <!-- End Map -->    
+                                
   </div> <!-- end page -->
 
+ 
                                                           
 <script type="text/javascript">
   var specLineGraph = "https://SayujMonash.github.io/FIT3179/LineGraph.json";
   var specLineGraphCountry = "https://SayujMonash.github.io/FIT3179/LineGraphCountry.json";
+  var specLineGraphCountry = "https://SayujMonash.github.io/FIT3179/MappedBinned.json";
 
   vegaEmbed('#LineGraph', specLineGraph, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -95,6 +113,9 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
+   vegaEmbed('#MapBinned', specMapBinned, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);  
 </script>
                                          
 </body>
