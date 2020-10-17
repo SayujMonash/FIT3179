@@ -104,23 +104,51 @@
     <!-- Metro vs Country -->
     <div class="pure-g">
       <div class="pure-u-1-2">
-        <h3>Metro</h3>
+        <h2"text-align:center;">Metro</h2>
       </div>
       <div class="pure-u-1-2">
-        <h3>Country</h3>
+        <h2"text-align:center;">Country</h2>
       </div>          
     </div>
-    <!-- End Map Title -->       
+    <!-- End Labels  -->
+
+    <!-- Heat Map -->
+    <div class="pure-g">
+        <div class="pure-u-1-2">
+          <div id="HeatMap" class="vis-container"></div>
+        </div>
+        <div class="pure-u-1-2">
+          <div id="HeatMapCountry" class="vis-container"></div>
+        </div>                                                   
+    </div>
+    <!-- Heat Map --> 
+    
+    <!-- Map  -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left">
+          <p style="font-size:15px;">The first column is used for description while the next two columns are merged and used for visualisation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed.</p>
+        </div>
+      </div>  
+      <div class="pure-u-1-2">
+        <div class="description description-right">
+          <p style="font-size:15px;">The first column is used for description while the next two columns are merged and used for visualisation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed.</p>
+        </div>
+      </div>      
+    </div>
+    <!-- End Map -->        
     
   </div> <!-- end page -->
 
-  
+ 
  
                                                           
 <script type="text/javascript">
   var specLineGraph = "https://SayujMonash.github.io/FIT3179/LineGraph.json";
   var specLineGraphCountry = "https://SayujMonash.github.io/FIT3179/LineGraphCountry.json";
   var specMapBinned = "https://SayujMonash.github.io/FIT3179/MapBinned.json";
+  var specHeatMap = "https://SayujMonash.github.io/FIT3179/HeatMap.json";
+  var specHeatMapCountry = "https://SayujMonash.github.io/FIT3179/HeatMapCountry.json";
 
   vegaEmbed('#LineGraph', specLineGraph, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -133,6 +161,14 @@
    vegaEmbed('#MapBinned', specMapBinned, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);  
+  
+  vegaEmbed('#HeatMap', specHeatMap, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);  
+  
+  vegaEmbed('#HeatMapCountry', specHeatMapCountry, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);    
 </script>
                                          
 </body>
