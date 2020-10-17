@@ -1,0 +1,69 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "container",
+  "height": "container",
+  "data": {
+    "url": "https://sayujmonash.github.io/FIT3179/BarChartF.csv"
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "Region",
+        "equal": "Metro"
+      }
+    }
+  ],
+   "encoding": {
+    "y": {
+      "field": "ACCIDENT_TYPE",
+      "title": "Accident Type",
+      "type": "nominal",
+      "sort": ["Collision with vehicle", "Collision with a fixed object", "Struck Pedestrian", "Vehicle overturned (no collision)", "No collision and no object struck", "collision with some other object", "Fall from or in moving vehicle", "Struck animal", "Other accident"]
+    },
+    "x": {
+      "field": "%num",
+      "aggregate": "sum",
+      "type": "quantitative",
+      "title": "Percentage of Total Crashes",
+      "scale": {"domain": [0,80]}      
+    }
+   },
+  "layer": [{  "mark": {
+    "type": "bar"
+  } ,
+  "encoding": {
+    "color": {
+      "field": "Driver Age",
+      "type": "nominal",
+      "title": "Driver Age",
+      "scale": {"range": ["#de1b20", "#fd833a", "#febd59"]}
+    },
+      "tooltip": [
+      {
+        "field": "Driver Age",
+        "type": "ordinal",
+        "title": "Driver Age"
+      },
+      {
+        "field": "%num",
+        "aggregate": "sum",
+        "type": "quantitative",
+        "title": "Percentage of Total Crashes",
+        "format": ".2f"
+      }
+    ]
+  }
+  },
+  {
+  "mark": {
+    "type": "text",
+    "align": "left",
+    "baseline": "middle",
+    "dx": 3
+  },
+  "encoding": {
+    "text": {"field": "%num", "type": "quantitative", "aggregate": "sum", "format": ".2f"}
+  }
+  }],
+  "config": {}
+}
