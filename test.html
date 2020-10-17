@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,21 +10,13 @@
 </head>
 <body>
 
-<div id="LineGraph"></div>
-<div id="LineGraphCountry"></div>
+<div id="vis"></div>
 
 <script type="text/javascript">
-  var specLineGraph = "https://SayujMonash.github.io/FIT3179/LineGraph.json";
-  var specLineGraphCountry = "https://SayujMonash.github.io/FIT3179/LineGraphCountry.json";
-
-  vegaEmbed('#LineGraph', specLineGraph, {"actions": false}).then(function(result) {
+  var spec = "https://SayujMonash.github.io/FIT3179/MapFin.json";
+  vegaEmbed('#vis', spec, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
-  
-   vegaEmbed('#LineGraphCountry', specLineGraphCountry, {"actions": false}).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-
 </script>
 </body>
 </html>
