@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": "container",
-  "height": "container",
+  "height": "250",
   "title": "Proportion of Accident Severity",
   "data": {
     "url": "https://sayujmonash.github.io/FIT3179/AreaChart.csv"
@@ -10,7 +10,7 @@
     {
       "filter": {
         "field": "Region",
-        "equal": "Country"
+        "equal": "Metro"
       }
     }
   ],
