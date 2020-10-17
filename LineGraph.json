@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "container",
+  "height": "container",
+  "data": {
+    "url": "https://sayujmonash.github.io/FIT3179/LineChart.csv"
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "Region",
+        "equal": "Metro"
+      }
+    }
+  ],
+  "title": "Motor Crashes per Month",
+  "config": {},
+  "mark": {
+    "type": "line",
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "timeUnit": "month",
+      "title": "Month"
+    },
+    "y": {
+      "field": "Date",
+      "aggregate": "count",
+      "title": "Number of Crashes",
+      "scale": {
+        "domain": [0,1000]
+      }
+    },
+    "color": {
+      "timeUnit": "year",
+      "type": "nominal",
+      "field": "Date",
+      "title": "Year",
+      "scale": {
+        "range": ["#9acae9", "#ff7f0e", "#d62728", "#4c78a8", "#e78ac3"]
+      }
+    }
+  }
+}
