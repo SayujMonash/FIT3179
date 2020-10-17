@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": "container",
-  "height": "220",
+  "height": "200",
   "title": "Proportion of Accident Severity",
   "data": {
     "url": "https://sayujmonash.github.io/FIT3179/AreaChart.csv"
@@ -19,7 +19,6 @@
     "order": {"field": "Order"},
     "x": {
       "field": "SPEED_ZONE",
-      "title": "Speed Zone",
       "type": "nominal",
       "sort": ["30 km/hr", "40 km/hr", "50 km/hr", "60 km/hr", "70 km/hr", "75 km/hr", "80 km/hr", "90 km/hr", "100 km/hr", "110 km/hr", "Off Road", "Other speed limit", "Not known"]     
     },
