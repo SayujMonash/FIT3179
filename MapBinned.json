@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Map of local gov area Victoria",
+  "width": "container",
+  "height": "container",
+  "title": "Victorian Crashes per 1000 People",
+  "data": {
+    "url": "https://sayujmonash.github.io/FIT3179/LocalGov2.json",
+    "format": {
+      "property": "features"
+    }
+  },
+  "transform": [
+    {
+      "lookup": "properties.vic_lga__3",
+      "from": {
+        "data": {
+          "url": "https://sayujmonash.github.io/FIT3179/MapFinal.csv"
+        },
+        "key": "LGA_NAME_R",
+        "fields": [
+          "LGA_NAME_R",
+          "Crashes Per 1000 People",
+          "Band",
+          "Region"
+        ]
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator"
+  },
+  "mark": {
+    "type": "geoshape",
+    "stroke": "#757575",
+    "strokeWidth": 0.5,
+    "tooltip": true
+  },
+  "encoding": {
+    "color": {
+      "field": "Band",
+      "type": "ordinal",
+      "scale": {
+        "domain": [
+          "0-10",
+          "10-15",
+          "15-20",
+          "20-25",
+          "25-35",
+          "35+"
+        ],
+        "range": [
+          "#fec866",
+          "#feab4b",
+          "#fd883b",
+          "#fa5b2e",
+          "#ec3024",
+          "#d31221"
+        ]
+      },
+      "legend": {
+        "title": null
+      }
+    },
+    "tooltip": [
+      {
+        "field": "properties.vic_lga__3",
+        "type": "nominal",
+        "title": "Name"
+      },
+      {
+        "field": "Crashes Per 1000 People",
+        "type": "quantitative",
+        "title": "Crashes per 1000 people",
+        "format": ".2f"
+      },
+      {
+        "field": "Region",
+        "type": "nominal",
+        "title": "Region"
+      }
+    ]
+  },
+  "config": {
+    "mark": {
+      "invalid": null
+    },
+    "style": {
+    "cell": {
+      "stroke": "transparent"
+    }
+  }
+    
+  }
+}
