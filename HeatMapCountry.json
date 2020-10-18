@@ -72,7 +72,7 @@
         "Saturday",
         "Sunday"
       ],
-      "title": "Day"
+      "title": null
     },
     "color": {
       "field": "ACCIDENT_NO",
