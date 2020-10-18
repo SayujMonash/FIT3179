@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "padding": {"left": 50},
+  "padding": {"right": 50},
   "width": "container",
   "height": 200,
   "title": "Proportion of Accident Severity",
