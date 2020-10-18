@@ -3,7 +3,6 @@
   "padding": {"right": 25},
   "width": "container",
   "height": 200,
-  "title": "Proportion of Accident Severity",
   "data": {
     "url": "https://sayujmonash.github.io/FIT3179/AreaChart.csv"
   },
