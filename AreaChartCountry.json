@@ -32,7 +32,7 @@
     "color": {
       "field": "SEVERITY",
       "scale": {
-        "domain": ["Other injury accident", "Serious injury accident", "Fatal accident"],
+        "domain": ["Other injury", "Serious injury", "Fatal"],
         "range": ["#febd59", "#fd833a", "#de1b20"]
       }
     },
