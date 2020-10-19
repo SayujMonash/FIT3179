@@ -37,17 +37,11 @@
   },
   "encoding": {
     "color": {
-      "field": "Band",
-      "type": "ordinal",
+      "field": "Crashes Per 1000 People",
+      "type": "quantitative",
       "scale": {
-        "domain": [
-          "0-10",
-          "10-15",
-          "15-20",
-          "20-25",
-          "25-35",
-          "35+"
-        ],
+        "type": "threshold",
+        "domain": [10,15,20,25,35],
         "range": [
           "#fec866",
           "#feab4b",
