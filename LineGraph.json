@@ -29,7 +29,7 @@
     "y": {
       "field": "metropolitan",
       "type": "quantitative",
-      "title": "Number of Accidents",
+      "title": null,
       "scale": {
         "domain": [0,1000]
       }
