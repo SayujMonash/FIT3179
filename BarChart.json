@@ -14,6 +14,7 @@
       }
     }
   ],
+
    "encoding": {
     "y": {
       "field": "ACCIDENT_TYPE",
@@ -28,8 +29,17 @@
       "title": "Percentage of Total Crashes",
       "scale": {"domain": [0,80]}      
     }
-   },
-  "layer": [{  "mark": {
+   },  
+  "layer": [{
+    "selection": {
+    "age_highlight": {
+    "type": "multi",
+    "fields": ["Driver Age"],
+    "bind": "legend"
+    }
+  },
+
+    "mark": {
     "type": "bar"
   } ,
   "encoding": {
@@ -39,6 +49,10 @@
       "title": "Driver Age",
       "scale": {"range": ["#de1b20", "#fd833a", "#febd59"]}
     },
+    "opacity": {
+      "condition": {"selection": "age_highlight", "value": 1},
+      "value": 0.2
+     },
       "tooltip": [
       {
         "field": "Driver Age",
