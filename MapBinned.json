@@ -37,11 +37,17 @@
   },
   "encoding": {
     "color": {
-      "field": "Crashes Per 1000 People",
-      "type": "quantitative",
+      "field": "Band",
+      "type": "ordinal",
       "scale": {
-        "type": "threshold",
-        "domain": [10,15,20,25,35],
+        "domain": [
+          "0-10",
+          "10-15",
+          "15-20",
+          "20-25",
+          "25-35",
+          "35+"
+        ],
         "range": [
           "#fec866",
           "#feab4b",
@@ -59,7 +65,7 @@
       {
         "field": "properties.vic_lga__3",
         "type": "nominal",
-        "title": "Name"
+        "title": "LGA Name"
       },
       {
         "field": "Crashes Per 1000 People",
