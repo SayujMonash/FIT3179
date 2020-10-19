@@ -14,6 +14,13 @@
       }
     }
   ],
+  "selection": {
+    "injury_highlight": {
+    "type": "multi",
+    "fields": ["SEVERITY"],
+    "bind": "legend"
+  }
+ },
   "mark": "bar",
   "encoding": {
     "order": {"field": "Order"},
@@ -40,11 +47,21 @@
       "title": "Injury"
     }
     },
+    "opacity": {
+      "condition": {"selection": "injury_highlight", "value": 1},
+      "value": 0.2
+    },
     "tooltip": [
       {
         "field": "SEVERITY",
         "type": "nominal",
         "title": "Injury Severity"
+      },
+      {
+        "field": "SEVERITY",
+        "aggregate": "count",
+        "type": "quantitative",
+        "title": "Number of Accidents"
       },
       {
         "field": "SEVERITY",
