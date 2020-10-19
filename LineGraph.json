@@ -2,17 +2,18 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": "container",
   "data": {
-    "url": "https://sayujmonash.github.io/FIT3179/LineChart.csv"
+    "url": "https://sayujmonash.github.io/FIT3179/LineCountry.csv"
   },
-  "transform": [
-    {
-      "filter": {
-        "field": "Region",
-        "equal": "Metro"
-      }
-    }
-  ],
-  "title": "Motor Crashes per Month",
+  
+  "selection": {
+  "year_highlight": {
+  "type": "multi",
+  "fields": ["year"],
+  "bind": "legend"
+  }
+ },
+ 
+  "title": "Motor Accidents - Metropolitan",
   "config": {},
   "mark": {
     "type": "line",
@@ -20,26 +21,44 @@
   },
   "encoding": {
     "x": {
-      "field": "Date",
-      "timeUnit": "month",
-      "title": "Month"
+      "field": "month_abb",
+      "type": "ordinal",
+      "title": null,
+      "sort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     },
     "y": {
-      "field": "Date",
-      "aggregate": "count",
-      "title": "Number of Crashes",
+      "field": "metropolitan",
+      "type": "quantitative",
+      "title": "Number of Accidents",
       "scale": {
         "domain": [0,1000]
       }
     },
     "color": {
-      "timeUnit": "year",
-      "type": "nominal",
-      "field": "Date",
+      "field": "year",
       "title": "Year",
       "scale": {
         "range": ["#9acae9", "#ff7f0e", "#d62728", "#4c78a8", "#e78ac3"]
       }
-    }
+    },
+    "opacity": {
+      "condition": {"selection": "year_highlight", "value": 1},
+      "value": 0.15
+     },
+    
+    "tooltip": [
+      {
+        "field": "metropolitan",
+        "title": "Number of accidents"
+      },
+      {
+        "field": "month",
+        "title": "Month"
+      },
+      {
+        "field": "year",
+        "title": "Year"
+      }
+    ]
   }
 }
