@@ -26,8 +26,10 @@
       }
     }
   ],
-  "projection": {
-    "type": "mercator"
+  "projection": { 
+    "parallels": [-34.5, -38], 
+    "rotate": [-141, 0, 0],
+    "type": "conicEqualArea"
   },
   "mark": {
     "type": "geoshape",
