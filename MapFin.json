@@ -1,9 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "Map of local gov area Victoria",
-  "width": 800,
+  "width": "container",
   "height": 500,
-  "title": "Victoria Motor Crashes per 1000 People",
   "data": {
     "url": "https://sayujmonash.github.io/FIT3179/LocalGov2.json",
     "format": {
@@ -25,10 +24,10 @@
       }
     }
   ],
-"projection": { 
-	"parallels": [-34.5, -38], 
-	"rotate": [-141, 0, 0],
-	"type": "conicEqualArea"
+  "projection": { 
+    "parallels": [-34.5, -38], 
+    "rotate": [-140, 0, 0],
+    "type": "conicEqualArea"
 
   },
   "mark": {
@@ -52,15 +51,16 @@
     },
     "tooltip": [
       {
-        "field": "properties.vic_lga__3",
+        "field": "LGA_NAME_R",
         "type": "nominal",
-        "title": "Name",
-        "format": ".2f" 
+        "title": "Name"
+
       },
       {
         "field": "Crashes Per 1000 People",
         "type": "quantitative",
-        "title": "Crashes per 1000 people"
+        "title": "Crashes per 1000 people",
+        "format": ".2f" 
       }
     ]
   },
