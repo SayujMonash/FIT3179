@@ -10,7 +10,7 @@
     { "name": "ty", "update": "height / 2" },
     {
       "name": "scale",
-      "value": 4250,
+      "value": 4300,
       "on": [{
         "events": {"type": "wheel", "consume": true},
         "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 4250, 25000)"
