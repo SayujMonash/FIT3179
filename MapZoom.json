@@ -1,4 +1,3 @@
-
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "An interactive world map supporting pan and zoom.",
@@ -90,8 +89,8 @@
     },
     {
       "name": "source_0",
-      "url": "https://sayujmonash.github.io/FIT3179/topo.json",
-      "format": {"type": "topojson", "feature": "LocalGov2", "parse": {}},
+      "url": "https://sayujmonash.github.io/FIT3179/LocalGov2.json",
+      "format": {"property": "features", "type": "json", "parse": {}},
       "transform": [
         {
           "type": "formula",
@@ -103,11 +102,7 @@
           "from": "source_1",
           "key": "LGA_NAME_R",
           "fields": ["properties.vic_lga__3"],
-          "values": ["LGA_NAME_R", "Crashes Per 1000 People"]
-        },
-        {
-          "type": "filter",
-          "expr": "isValid(datum[\"Crashes Per 1000 People\"]) && isFinite(+datum[\"Crashes Per 1000 People\"])"
+          "values": ["LGA_NAME_R", "Crashes Per 1000 People", "Band", "Region"]
         }
       ]
     }
@@ -163,5 +158,3 @@
   ],
   "config": {"style": {"cell": {"stroke": "transparent"}}}
 }
-
-
