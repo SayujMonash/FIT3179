@@ -1,78 +1,76 @@
+
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "An interactive world map supporting pan and zoom.",
-  "width": "container",
+  "width": 800,
   "height": 500,
   "autosize": "none",
+
   "signals": [
-    {"name": "tx", "update": "width / 2"},
-    {"name": "ty", "update": "height / 2"},
+    { "name": "tx", "update": "width / 2" },
+    { "name": "ty", "update": "height / 2" },
     {
       "name": "scale",
       "value": 4250,
-      "on": [
-        {
-          "events": {"type": "wheel", "consume": true},
-          "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 4250, 25000)"
-        }
-      ]
+      "on": [{
+        "events": {"type": "wheel", "consume": true},
+        "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 4250, 25000)"
+      }]
     },
     {
       "name": "angles",
       "value": [0, 0],
-      "on": [{"events": "mousedown", "update": "[rotateX, centerY]"}]
+      "on": [{
+        "events": "mousedown",
+        "update": "[rotateX, centerY]"
+      }]
     },
     {
       "name": "cloned",
       "value": null,
-      "on": [{"events": "mousedown", "update": "copy('projection')"}]
+      "on": [{
+        "events": "mousedown",
+        "update": "copy('projection')"
+      }]
     },
     {
       "name": "start",
       "value": null,
-      "on": [{"events": "mousedown", "update": "invert(cloned, xy())"}]
+      "on": [{
+        "events": "mousedown",
+        "update": "invert(cloned, xy())"
+      }]
     },
     {
-      "name": "drag",
-      "value": null,
-      "on": [
-        {
-          "events": "[mousedown, window:mouseup] > window:mousemove",
-          "update": "invert(cloned, xy())"
-        }
-      ]
+      "name": "drag", "value": null,
+      "on": [{
+        "events": "[mousedown, window:mouseup] > window:mousemove",
+        "update": "invert(cloned, xy())"
+      }]
     },
     {
-      "name": "delta",
-      "value": null,
-      "on": [
-        {
-          "events": {"signal": "drag"},
-          "update": "[drag[0] - start[0], start[1] - drag[1]]"
-        }
-      ]
+      "name": "delta", "value": null,
+      "on": [{
+        "events": {"signal": "drag"},
+        "update": "[drag[0] - start[0], start[1] - drag[1]]"
+      }]
     },
     {
-      "name": "rotateX",
-      "value": -146,
-      "on": [
-        {
-          "events": {"signal": "delta"},
-          "update": "clamp(angles[0] + delta[0], -155, -115)"
-        }
-      ]
+      "name": "rotateX", "value": -146,
+      "on": [{
+        "events": {"signal": "delta"},
+        "update": "clamp(angles[0] + delta[0], -150, -140)"
+      }]
     },
     {
-      "name": "centerY",
-      "value": -36.5,
-      "on": [
-        {
-          "events": {"signal": "delta"},
-          "update": "clamp(angles[1] + delta[1], -41, -12)"
-        }
-      ]
+      "name": "centerY", "value": -36.5,
+      "on": [{
+        "events": {"signal": "delta"},
+        "update": "clamp(angles[1] + delta[1], -39, -34)"
+      }]
     }
   ],
+
   "projections": [
     {
       "name": "projection",
@@ -83,6 +81,7 @@
       "translate": [{"signal": "tx"}, {"signal": "ty"}]
     }
   ],
+
   "data": [
     {
       "name": "source_1",
@@ -109,6 +108,7 @@
       ]
     }
   ],
+
   "marks": [
     {
       "name": "marks",
@@ -151,6 +151,7 @@
   "legends": [
     {
       "fill": "color",
+      "fillColor": "white",
       "orient": "top-right",
       "symbolType": "circle",
       "encode": {"symbols": {"update": {"stroke": {"value": "#757575"}}}}
@@ -158,3 +159,5 @@
   ],
   "config": {"style": {"cell": {"stroke": "transparent"}}}
 }
+
+
