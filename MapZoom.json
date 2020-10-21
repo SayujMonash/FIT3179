@@ -153,7 +153,7 @@
       "orient": "top-right",
       "strokeColor": "white",
       "symbolType": "circle",
-      "padding": 5,
+      "padding": 3,
       "encode": {"symbols": {"update": {"stroke": {"value": "#757575"}}}}
     }
   ],
