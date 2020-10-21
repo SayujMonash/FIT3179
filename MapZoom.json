@@ -150,11 +150,13 @@
   "legends": [
     {
       "fill": "color",
-      "fillColor": "white",
       "orient": "top-right",
+      "strokeColor": "white",
       "symbolType": "circle",
+      "padding": 5,
       "encode": {"symbols": {"update": {"stroke": {"value": "#757575"}}}}
     }
   ],
   "config": {"style": {"cell": {"stroke": "transparent"}}}
+  
 }
