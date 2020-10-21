@@ -89,8 +89,8 @@
     },
     {
       "name": "source_0",
-      "url": "https://sayujmonash.github.io/FIT3179/LocalGov2.json",
-      "format": {"property": "features", "type": "json", "parse": {}},
+      "url": "https://sayujmonash.github.io/FIT3179/topo.json",
+      "format": {"type": "topojson", "feature": "LocalGov2", "parse": {}},
       "transform": [
         {
           "type": "formula",
@@ -102,7 +102,7 @@
           "from": "source_1",
           "key": "LGA_NAME_R",
           "fields": ["properties.vic_lga__3"],
-          "values": ["LGA_NAME_R", "Crashes Per 1000 People", "Band", "Region"]
+          "values": ["LGA_NAME_R", "Crashes Per 1000 People", "Region"]
         }
       ]
     }
