@@ -10,10 +10,10 @@
     { "name": "ty", "update": "height / 2" },
     {
       "name": "scale",
-      "value": 4300,
+      "value": 5000,
       "on": [{
         "events": {"type": "wheel", "consume": true},
-        "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 4250, 25000)"
+        "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 5000, 28000)"
       }]
     },
     {
@@ -55,10 +55,10 @@
       }]
     },
     {
-      "name": "rotateX", "value": -146,
+      "name": "rotateX", "value": -141,
       "on": [{
         "events": {"signal": "delta"},
-        "update": "clamp(angles[0] + delta[0], -150, -140)"
+        "update": "clamp(angles[0] + delta[0], -146, -136)"
       }]
     },
     {
@@ -73,10 +73,11 @@
   "projections": [
     {
       "name": "projection",
-      "type": "mercator",
+      "type": "conicEqualArea",
       "scale": {"signal": "scale"},
+      "parallels": [-34.5, -38], 
       "rotate": [{"signal": "rotateX"}, 0, 0],
-      "center": [0, {"signal": "centerY"}],
+      "center": [5, {"signal": "centerY"}],
       "translate": [{"signal": "tx"}, {"signal": "ty"}]
     }
   ],
