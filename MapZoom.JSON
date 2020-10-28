@@ -1,0 +1,163 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "An interactive world map supporting pan and zoom.",
+  "width": 750,
+  "height": 500,
+  "autosize": "none",
+
+  "signals": [
+    { "name": "tx", "update": "width / 2" },
+    { "name": "ty", "update": "height / 2" },
+    {
+      "name": "scale",
+      "value": 5000,
+      "on": [{
+        "events": {"type": "wheel", "consume": true},
+        "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 5000, 28000)"
+      }]
+    },
+    {
+      "name": "angles",
+      "value": [0, 0],
+      "on": [{
+        "events": "mousedown",
+        "update": "[rotateX, centerY]"
+      }]
+    },
+    {
+      "name": "cloned",
+      "value": null,
+      "on": [{
+        "events": "mousedown",
+        "update": "copy('projection')"
+      }]
+    },
+    {
+      "name": "start",
+      "value": null,
+      "on": [{
+        "events": "mousedown",
+        "update": "invert(cloned, xy())"
+      }]
+    },
+    {
+      "name": "drag", "value": null,
+      "on": [{
+        "events": "[mousedown, window:mouseup] > window:mousemove",
+        "update": "invert(cloned, xy())"
+      }]
+    },
+    {
+      "name": "delta", "value": null,
+      "on": [{
+        "events": {"signal": "drag"},
+        "update": "[drag[0] - start[0], start[1] - drag[1]]"
+      }]
+    },
+    {
+      "name": "rotateX", "value": -141,
+      "on": [{
+        "events": {"signal": "delta"},
+        "update": "clamp(angles[0] + delta[0], -146, -136)"
+      }]
+    },
+    {
+      "name": "centerY", "value": -36.5,
+      "on": [{
+        "events": {"signal": "delta"},
+        "update": "clamp(angles[1] + delta[1], -39, -34)"
+      }]
+    }
+  ],
+
+  "projections": [
+    {
+      "name": "projection",
+      "type": "conicEqualArea",
+      "scale": {"signal": "scale"},
+      "parallels": [-34.5, -38], 
+      "rotate": [{"signal": "rotateX"}, 0, 0],
+      "center": [5, {"signal": "centerY"}],
+      "translate": [{"signal": "tx"}, {"signal": "ty"}]
+    }
+  ],
+
+  "data": [
+    {
+      "name": "source_1",
+      "url": "https://sayujmonash.github.io/FIT3179/MapFinal.csv",
+      "format": {"type": "csv", "delimiter": ","}
+    },
+    {
+      "name": "source_0",
+      "url": "https://sayujmonash.github.io/FIT3179/topo.json",
+      "format": {"type": "topojson", "feature": "LocalGov2", "parse": {}},
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum[\"properties\"] && datum[\"properties\"][\"vic_lga__3\"]",
+          "as": "properties.vic_lga__3"
+        },
+        {
+          "type": "lookup",
+          "from": "source_1",
+          "key": "LGA_NAME_R",
+          "fields": ["properties.vic_lga__3"],
+          "values": ["LGA_NAME_R", "Crashes Per 1000 People", "Region"]
+        }
+      ]
+    }
+  ],
+
+  "marks": [
+    {
+      "name": "marks",
+      "type": "shape",
+      "style": ["geoshape"],
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "#757575"},
+          "strokeWidth": {"value": 0.5},
+          "tooltip": {
+            "signal": "{\"LGA Name\": isValid(datum[\"properties.vic_lga__3\"]) ? datum[\"properties.vic_lga__3\"] : \"\"+datum[\"properties.vic_lga__3\"], \"Crashes per 1000 people\": format(datum[\"Crashes Per 1000 People\"], \".2f\"), \"Region\": isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"]}"
+          },
+          "fill": {"scale": "color", "field": "Crashes Per 1000 People"},
+          "ariaRoleDescription": {"value": "geoshape"},
+          "description": {
+            "signal": "\"Crashes Per 1000 People: \" + (format(datum[\"Crashes Per 1000 People\"], \"\")) + \"; LGA Name: \" + (isValid(datum[\"properties.vic_lga__3\"]) ? datum[\"properties.vic_lga__3\"] : \"\"+datum[\"properties.vic_lga__3\"]) + \"; Crashes per 1000 people: \" + (format(datum[\"Crashes Per 1000 People\"], \".2f\")) + \"; Region: \" + (isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"])"
+          }
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "threshold",
+      "domain": [10, 15, 20, 25, 35],
+      "range": [
+        "#fec866",
+        "#feab4b",
+        "#fd883b",
+        "#fa5b2e",
+        "#ec3024",
+        "#d31221"
+      ],
+      "interpolate": "hcl"
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "orient": "top-right",
+      "strokeColor": "white",
+      "symbolType": "circle",
+      "padding": 3,
+      "encode": {"symbols": {"update": {"stroke": {"value": "#757575"}}}}
+    }
+  ],
+  "config": {"style": {"cell": {"stroke": "transparent"}}}
+  
+}
