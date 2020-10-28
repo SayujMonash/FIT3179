@@ -47,7 +47,7 @@
       "field": "Driver Age",
       "type": "nominal",
       "title": "Driver Age",
-      "scale": {"range": ["#de1b20", "#fd833a", "#febd59"]}
+      "scale": {"range": ["#ec3024", "#fd833a", "#febd59"]}
     },
     "opacity": {
       "condition": {"selection": "age_highlight", "value": 1},

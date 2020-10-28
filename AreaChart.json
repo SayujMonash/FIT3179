@@ -41,7 +41,7 @@
       "field": "SEVERITY",
       "scale": {
         "domain": ["Minor", "Serious", "Fatal"],
-        "range": ["#febd59", "#fd833a", "#de1b20"]
+        "range": ["#febd59", "#fd833a", "#ec3024"]
       },
     "legend": {
       "title": "Injury"
