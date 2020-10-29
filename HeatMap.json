@@ -90,6 +90,14 @@
         "aggregate": "count",
         "type": "quantitative",
         "title": "Accidents"
+      },
+      {
+        "field": "DAY_OF_WEEK",
+        "title": "Day"
+      },
+      {
+        "field": "Time Range",
+        "title": "Hour"
       }
     ]
   }
