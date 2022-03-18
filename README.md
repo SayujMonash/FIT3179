@@ -1,3 +1,3 @@
-# FIT3179
+# Data Visualisation
 Data Visualisation
 Repo for Sayuj Datey
